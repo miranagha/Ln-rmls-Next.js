@@ -1,0 +1,22 @@
+{
+  "name": "london-removals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^0.1.5",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "next": "^5.1.0",
+    "nodemailer": "^4.6.4",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
