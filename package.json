@@ -21,10 +21,15 @@
     "jquery": "^3.3.1",
     "material-design-icons": "^3.0.1",
     "material-design-icons-iconfont": "^3.0.3",
-    "next": "^5.1.0",
+    "next": "^6.0.0-canary.6",
     "nodemailer": "^4.6.4",
     "popper.js": "^1.14.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0"
   }
 }
