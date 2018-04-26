@@ -1,21 +1,13 @@
 import React from "react";
-import Header from "../components/Header.js";
-import Footer from "../components/Footer.js";
-import Head from 'next/head'
+import Head from 'next/head';
+import Page from '../layouts/main';
 
 const InternationalRemovals = () => (
     <div>
         <Head>
             <title>International Removals</title>
-            <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-            <link rel="stylesheet" href="/_next/static/style.css" />
-            <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-            <meta content="width=device-width, initial-scale=1" name="viewport" />
         </Head>
-        <Header />
+        <Page>
         <article>
             <div className="main-container col-lg-12">
                 <div className="col-md-8 col-md-push-2">
@@ -70,7 +62,7 @@ const InternationalRemovals = () => (
                 Drop us a line today to find out more.</p>
             </div>
         </article>
-        <Footer />
+        </Page>
     </div>
 );
 
