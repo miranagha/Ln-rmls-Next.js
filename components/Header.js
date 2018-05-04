@@ -1,68 +1,114 @@
 import React from "react";
-import Link from 'next/link'
+// import Link from 'next/link'
 
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from "reactstrap";
+import FaPhone from "react-icons/lib/fa/phone";
 
-const Header = () => (
-    <header>
-        <nav className="navbar navbar-inverse navbar-white">
-            <div className="text-right">
-                <a className="phone" href="tel:07490531699"><span aria-hidden="true" className="glyphicon glyphicon-earphone"></span> 02080000000</a>
-            </div>
-            <div className="container-fluid">
-                <div className="navbar-header">
-                    <button aria-expanded="false" className="navbar-toggle navbar-toggle-org collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span></button>
-                    <a className="navbar-brand logo" href='./'>
-                        <img src='/static/logo.png' alt="Top london removals" width='161px' height='87px' />
-                    </a>
-                </div>
-                <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul className="nav navbar-nav">
-                        <li className="navi">
-                            <Link href='/' passHref>
-                                <a>HOME</a>
-                            </Link>
-                        </li>
-                        <li className="dropdown navi">
-                            <a aria-expanded="false" aria-haspopup="true" className="dropdown-toggle" data-toggle="dropdown" href="" role="button">REMOVALS<span className="caret"></span></a>
-                            <ul className="dropdown-menu">
-                                <li className="sub-navi">
-                                    <Link href='/home-removals' passHref>
-                                        <a>Home Removals</a>
-                                    </Link>
-                                </li>
-                                <li className="sub-navi">
-                                    <Link href='/office-removals' passHref>
-                                        <a>Office Removals</a>
-                                    </Link>
-                                </li>
-                                <li className="sub-navi">
-                                    <Link href='/international-removals' passHref>
-                                        <a>International Removals</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="navi">
-                            <Link href='/man-and-van' passHref >
-                                <a>MAN AND VAN</a>
-                            </Link>
-                        </li>
-                        <li className="navi">
-                            <Link href='/prices' passHref>
-                                <a>PRICES</a>
-                            </Link>
-                        </li>
-                        <li className="navi">
-                            <Link href='/get-a-quote' passHref>
-                                <a>GET A QUOTE</a>
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+export default class Example extends React.Component {
+  constructor(props) {
+    super(props);
 
-);
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+  render() {
+    return (
+      <div>
+        <div className="text-right">
+          <a className="phone" href="tel:07490531699">
+            <FaPhone /> 02080000000
+          </a>
+        </div>
+        <Navbar light expand="md">
+          <NavbarBrand href="/">
+            <img
+              src="/static/logo.png"
+              alt="Top london removals"
+              className='logo'
+            />
+          </NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto navi" navbar>
+              <NavItem>
+                <NavLink className="aa" href="/">
+                  HOME
+                </NavLink>
+                {/* <Link href='/' passHref>
+                                    <a>HOME</a>
+                                </Link> */}
+              </NavItem>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  REMOVALS
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    {/* <Link href='/home-removals' passHref>
+                                            <a>Home Removals</a>
+                                        </Link> */}
+                    <NavLink href="/home-removals">Home Removals</NavLink>
+                  </DropdownItem>
+                  <DropdownItem divider />
 
-export default Header;
+                  <DropdownItem>
+                    {/* <Link href='/office-removals' passHref>
+                                            <a>Office Removals</a>
+                                        </Link> */}
+                    <NavLink href="/office-removals">Office Removals</NavLink>
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    {/* <Link href='/international-removals' passHref>
+                                            <a>International Removals</a>
+                                        </Link> */}
+                    <NavLink href="/international-removals">
+                      International Removals
+                    </NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+              <NavItem>
+                {/* <Link href='/man-and-van' passHref >
+                                    <a>MAN AND VAN</a>
+                                </Link> */}
+                <NavLink href="/man-and-van">MAN AND VAN</NavLink>
+              </NavItem>
+              <NavItem>
+                {/* <Link href='/prices' passHref >
+                                    <a>PRICES</a>
+                                </Link> */}
+                <NavLink href="/prices">PRICES</NavLink>
+              </NavItem>
+              <NavItem>
+                {/* <Link href='/get-a-quote' passHref>
+                                    <a>GET A QUOTE</a>
+                                </Link> */}
+                <NavLink href="/get-a-quote">GET A QUOTE</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    );
+  }
+}

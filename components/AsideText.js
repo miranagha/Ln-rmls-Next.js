@@ -10,13 +10,13 @@ const AsideText = () => (
 		specific requirements, we are here for you. </p>
 
 		<h2 className='h2'>Other removalists</h2>
-		<p>Many <a className='a' href="https://www.timeout.com/london/things-to-do/find-a-removal-firm" target="_blank">removals firms </a>
+		<p>Many <a className='a' href="https://www.timeout.com/london/things-to-do/find-a-removal-firm" rel="nofollow" target="_blank">removals firms </a>
 			operating in London and each of them provides different kinds of removals services.
-		<a className='a' href="http://www.the-london-removals.co.uk/" target="_blank"> the-london-removals </a>
+		<a className='a' href="http://www.the-london-removals.co.uk/" rel="nofollow" target="_blank"> the-london-removals </a>
 			is a man and van company for packing services, and self-storage.
-		<a className='a' href="https://aussiegroup.co.uk/removals/" target="_blank"> Aussie </a>
+		<a className='a' href="https://aussiegroup.co.uk/removals/" rel="nofollow" target="_blank"> Aussie </a>
 			is based in London, and beyond they have been doing this job for many years.
-		<a className='a' href="https://www.fantastic-removals.co.uk/" target="_blank"> Fantastic-Removals </a>
+		<a className='a' href="https://www.fantastic-removals.co.uk/" rel="nofollow" target="_blank"> Fantastic-Removals </a>
 			has got a big team to help Londoners to move their items across the country.</p>
 	</aside>
 );

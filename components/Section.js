@@ -1,29 +1,34 @@
 import React from "react";
 import "../style.css"
+import {MdPublic, MdLocationCity, MdHome} from 'react-icons/lib/md';
+import { Container, Row, Col } from 'reactstrap';
+
 
 const Section = () => (
     <section>
         <div className="main-container col-lg-12">
-            <h1>Need  a Quote from Top London Removals company?</h1>
+            <h1 className='text-center' >Top London Removals</h1>
             <p className="text-eft">
                 In London on moving day without a plan? you need a man with a van service. At London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you’re relocating overseas. We have a diverse client base and can assist you whether you’re moving a single item or are a large corporation wishing to relocate.
             </p>
-
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="icons-div col-xs-4">
-                        <i className="material-icon-lg material-icons">&#xe88a;</i>
-                        <a href='/home-removals'><button className="btn btn-removals" type="button">Home</button></a>
-                    </div>
-                    <div className="icons-div col-xs-4">
-                        <i className="material-icons material-icon-lg">&#xe7f1;</i>
+            <div>
+              <h2 className='text-center h2' style={{fontWeight:'bold'}}>Types of <span style={{color:'white'}}>Move</span></h2>
+            <Container>
+                <Row className="text-center">
+                    <Col>
+                        <p className="material-icon-lg material-icon"><MdHome /></p>
+                        <a href='/home-removals'><button className="btn btn-removals" >House</button></a>
+                    </Col>
+                    <Col>
+                        <p className="material-icon-lg material-icon"><MdLocationCity /></p>
                         <a href='/office-removals'><button className="btn btn-removals" type="button">Office</button></a>
-                    </div>
-                    <div className="icons-div col-xs-4">
-                        <i className="material-icons material-icon-lg">&#xe80b;</i>
+                    </Col>
+                    <Col>
+                        <p className="material-icon-lg material-icon"><MdPublic /></p>
                         <a href='/international-removals'><button className="btn btn-removals" type="button">International</button></a>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
+                </Container>
             </div>
         </div>
         <article>
