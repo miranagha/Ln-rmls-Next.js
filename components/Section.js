@@ -12,7 +12,7 @@ const Section = () => (
                 In London on moving day without a plan? you need a man with a van service. At London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you’re relocating overseas. We have a diverse client base and can assist you whether you’re moving a single item or are a large corporation wishing to relocate.
             </p>
             <div>
-              <h2 className='text-center h2' style={{fontWeight:'bold'}}>Types of <span style={{color:'white'}}>Move</span></h2>
+              <h2 className='text-center h2' style={{fontWeight:'bold'}}>Types of <span style={{color:'white'}}>Moves</span></h2>
             <Container>
                 <Row className="text-center">
                     <Col>
@@ -36,7 +36,7 @@ const Section = () => (
             <p>
                 Having been in the business since way back in 2001, we can be counted on to deliver the exceptional removal services that you require. We can also help you with packing, loading, unpacking and waste disposal, and can even provide the assistance you need when you need to assemble and disassemble furniture. We are fully-insured and treat your items with the utmost respect, providing a quality guarantee to each and every customer. Our specialised services are designed to take the stress out of relocation, and we have worked on a huge range of moves over the years.
             </p>
-            <h2 className='h2'>A team you can trust</h2>
+            <h2 className='h2'>Reliable removals team</h2>
             <p>
                 All our uniformed loaders and drivers are fully-trained and competent enough to carry out the work safely and professionally. We take pride in our quality assurance procedures and constantly seek out feedback from our clients to ensure we remain at the top. We understand better than anybody how important it is to need trustworthy and efficient partners when you move, and this is exactly the guarantee we provide to every customer. Not only are we fully insured, meaning we are fully responsible for all your items while they are being transported by us and a quality guarantee is provided to every customer, but we pride ourselves on being sensitive and adaptable.
             </p>

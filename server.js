@@ -15,22 +15,22 @@ var express = require('express'),
     //   res.render('App');
     // });
     app.post('/send-email', cors(),function (req, res) {
-        
+
       let transporter = nodeMailer.createTransport({
           host: 'smtp.gmail.com',
           port: 465,
           secure: true,
           auth: {
               user: 'm.agha46@gmail.com',
-              pass: '00pokpok'
+              pass: '80pokpok'
           }
-      }); 
+      });
       let mailOptions = {
           from: "New Request" , // sender address
-          to: 'm.agha46@gmail.com', 
-          subject: 'Email from '+req.body.name, 
-          html: `Name: ${req.body.name} <br /><br /> 
-                 Phone number: <a tel:${req.body.phone}>${req.body.phone}</a> <br /><br /> 
+          to: 'm.agha46@gmail.com',
+          subject: 'Email from '+req.body.name,
+          html: `Name: ${req.body.name} <br /><br />
+                 Phone number: <a tel:${req.body.phone}>${req.body.phone}</a> <br /><br />
                  Email: ${req.body.email} <br /><br />
                  Pick up postcode: ${req.body.pickUp} <br /><br />
                  Delivery postcode: ${req.body.delivery} <br /><br />

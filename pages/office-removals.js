@@ -36,7 +36,7 @@ const OfficeRemovals = () => (
           </Col>
         </Col>
         <Col sm="12" md={{ size: 8, offset: 2 }}>
-          <h2 className="h2">Getting you from A to B in style</h2>
+          <h2 className="h2">office relocation in style</h2>
           <p>
             We always treat your office equipment, furniture and other goods
             with the utmost respect and consistently ensure your items arrive at
@@ -70,7 +70,7 @@ const OfficeRemovals = () => (
             build a detailed and intricate plan of action to ensure your big
             move runs as smoothly as it possibly can.
           </p>
-          <h2 className="h2">A smoother process</h2>
+          <h2 className="h2">Smooth office removals</h2>
           <p>
             We can make the process even smoother by obtaining a floor plan of
             your new space and labeling all your boxes correctly. You can get in
@@ -80,7 +80,7 @@ const OfficeRemovals = () => (
             passion for quality and strong reputation. We also charge some of
             the most competitive prices on the market, without ever making
             sacrifices on quality.
-            <br />Why not get in touch to{" "}
+            <br />Why not get in touch to
             <a className='a' href="/get-a-quote"> get a quote</a> today if you need to move
             offices in London?
           </p>

@@ -67,90 +67,10 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/AsideText.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/AsideText.js";
-
-
-var AsideText = function AsideText() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("aside", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    }
-  }, "Round-the-clock assistance"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, " We offer a 24/7 service designed to fit around your schedule. Our fast-growing reputation means more residential and business customers are choosing us. No matter when you need to move, we can help. We have no problem with assisting you during weekends, public holidays or unsociable hours. If you\u2019re looking for a team that can schedule your move around your specific requirements, we are here for you. "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, "Other removalists"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }, "Many ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "a",
-    href: "https://www.timeout.com/london/things-to-do/find-a-removal-firm",
-    rel: "nofollow",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }, "removals firms "), "operating in London and each of them provides different kinds of removals services.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "a",
-    href: "http://www.the-london-removals.co.uk/",
-    rel: "nofollow",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }, " the-london-removals "), "is a man and van company for packing services, and self-storage.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "a",
-    href: "https://aussiegroup.co.uk/removals/",
-    rel: "nofollow",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    }
-  }, " Aussie "), "is based in London, and beyond they have been doing this job for many years.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "a",
-    href: "https://www.fantastic-removals.co.uk/",
-    rel: "nofollow",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  }, " Fantastic-Removals "), "has got a big team to help Londoners to move their items across the country."));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (AsideText);
-
-/***/ }),
 
 /***/ "./components/Footer.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -792,235 +712,6 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/Section.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css__ = __webpack_require__("./style.css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__ = __webpack_require__("react-icons/lib/md");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_reactstrap__ = __webpack_require__("reactstrap");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_reactstrap__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/Section.js";
-
-
-
-
-
-var Section = function Section() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "main-container col-lg-12",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, "Top London Removals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "text-eft",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, "In London on moving day without a plan? you need a man with a van service. At London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you\u2019re relocating overseas. We have a diverse client base and can assist you whether you\u2019re moving a single item or are a large corporation wishing to relocate."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "text-center h2",
-    style: {
-      fontWeight: 'bold'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }, "Types of ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    style: {
-      color: 'white'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }, "Moves")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Container"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Row"], {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Col"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "material-icon-lg material-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__["MdHome"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "/home-removals",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    className: "btn btn-removals",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
-  }, "House"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Col"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "material-icon-lg material-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__["MdLocationCity"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "/office-removals",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    className: "btn btn-removals",
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    }
-  }, "Office"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Col"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "material-icon-lg material-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__["MdPublic"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "/international-removals",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    className: "btn btn-removals",
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  }, "International"))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("article", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    }
-  }, "Removals expert in London"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    }
-  }, "Having been in the business since way back in 2001, we can be counted on to deliver the exceptional removal services that you require. We can also help you with packing, loading, unpacking and waste disposal, and can even provide the assistance you need when you need to assemble and disassemble furniture. We are fully-insured and treat your items with the utmost respect, providing a quality guarantee to each and every customer. Our specialised services are designed to take the stress out of relocation, and we have worked on a huge range of moves over the years."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    }
-  }, "Reliable removals team"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    }
-  }, "All our uniformed loaders and drivers are fully-trained and competent enough to carry out the work safely and professionally. We take pride in our quality assurance procedures and constantly seek out feedback from our clients to ensure we remain at the top. We understand better than anybody how important it is to need trustworthy and efficient partners when you move, and this is exactly the guarantee we provide to every customer. Not only are we fully insured, meaning we are fully responsible for all your items while they are being transported by us and a quality guarantee is provided to every customer, but we pride ourselves on being sensitive and adaptable."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    }
-  }, "London office removals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    }
-  }, "If you\u2019re a business, chances are you have big concerns about keeping downtime to a minimum and making the swiftest move you possibly can. If this is the case, let us step in. We can carefully pack and label all items on your behalf, remove and reassemble shelving systems to support your accounts team and carry out moves during evenings and weekends to diminish lost hours and revenue. Whether you\u2019re moving within the same complex or to another part of the country, we can help. Our business clients have included everyone from small start-ups to large, long-established organisations."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    }
-  }, "Storage solutions available"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    }
-  }, "You can rely on us to use our vast experience to make the experience as smooth as possible. In fact, you don\u2019t need to lift as much as a finger to use our services. We also offer short and long-term storage solutions, which means you are fully covered if you are not moving into your new home or business premises on the same day you leave your old base. We offer global moving services and can transport your goods to anywhere in the world."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    }
-  }, "Why not get in touch to  ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "a",
-    href: "/get-a-quote",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    }
-  }, " get a quote"), " today if you\u2019ve been looking for the best removals companies in London?")));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Section);
-
-/***/ }),
-
 /***/ "./layouts/main.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1055,118 +746,143 @@ var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/layouts/main.js";
 
 /***/ }),
 
-/***/ "./node_modules/bootstrap/dist/css/bootstrap.css":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "./pages/index.js":
+/***/ "./pages/get-a-quote.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Form_js__ = __webpack_require__("./components/Form.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_AsideText_js__ = __webpack_require__("./components/AsideText.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Section_js__ = __webpack_require__("./components/Section.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__layouts_main__ = __webpack_require__("./layouts/main.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_bootstrap_dist_css_bootstrap_css__ = __webpack_require__("./node_modules/bootstrap/dist/css/bootstrap.css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_bootstrap_dist_css_bootstrap_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_bootstrap_dist_css_bootstrap_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_reactstrap__ = __webpack_require__("reactstrap");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_reactstrap__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/pages/index.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Form_js__ = __webpack_require__("./components/Form.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__layouts_main__ = __webpack_require__("./layouts/main.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_reactstrap__ = __webpack_require__("reactstrap");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_reactstrap__);
+var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/pages/get-a-quote.js";
 
 
 
 
 
 
-
-
-
-var Home = function Home() {
+var GetAquote = function GetAquote() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 8
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_head___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_head___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 9
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "Get a quote")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__layouts_main__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_reactstrap__["Col"], {
+    className: "main-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_reactstrap__["Col"], {
+    sm: "12",
+    md: {
+      size: 8,
+      offset: 2
+    },
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 14
     }
-  }, "London Removals - Top removals service free quotes 24/7"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    name: "description",
-    content: "Top London Removals is a specialist home, office and international removals company since 2001. Get free quotes no obligations",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__layouts_main__["a" /* default */], {
+  }, "Get a Quote from Top London Removals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_reactstrap__["Row"], {
+  }, "we have vast experience behind us when it comes to moving the contents of flats, houses, offices and more and are able to offer some of the most competitive quotes on the market. We are renowned for our flexibility and can come to your assistance whether your move is taking place during the daytime, on an evening, during the night or on a weekend or public holiday, and assist you when packing and unpacking if needed to make the process of getting from A to B even smoother."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 26
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_reactstrap__["Col"], {
-    md: "8",
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_reactstrap__["Col"], {
+    sm: "12",
+    md: {
+      size: 8,
+      offset: 2
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 29
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Section_js__["a" /* default */], {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 30
     }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_reactstrap__["Col"], {
-    md: "4",
+  }, "To get a quote for removal services or a man with van in London please complete this form or give us a call", " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "a",
+    href: "tel:07490531699",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 33
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Form_js__["a" /* default */], {
+  }, " ", "07490531699"), " ", "(24/7)."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 39
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_AsideText_js__["a" /* default */], {
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Form_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 40
     }
-  })))));
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+    className: "h2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    }
+  }, "Bespoke quoting available for free"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    }
+  }, "You can get as much as quotes you need for your removal 24/7. We cover all parts of London and specialise in local, national and even international moves. What\u2019s more is that we can even come to visit you at your home or business premises if needed to provide a bespoke quotation. If this is not possible, we can offer an initial quote over the phone by taking a few key details."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+    className: "h2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    }
+  }, "Taking the stress out of relocation"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    }
+  }, "There\u2019s no doubt that relocating can be stressful, whether you\u2019re moving your business or transporting your goods to your new home. We are here to remove much of the stress from the relocation process and can help whether you need us for a few hours, half-day, full-day or even longer. Storage solutions are also available if you cannot move into your new home or business premises on the same day you are leaving. We are also fully-insured and treat your belongings with the highest level of respect. We can also label your boxes on your behalf to ensure you can easily identify your goods when you arrive at your new base."))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+/* harmony default export */ __webpack_exports__["default"] = (GetAquote);
 
 /***/ }),
 
-/***/ "./style.css":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 3:
+/***/ 6:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/get-a-quote.js");
 
 
 /***/ }),
@@ -1199,13 +915,6 @@ module.exports = require("react-icons/lib/fa/phone");
 
 /***/ }),
 
-/***/ "react-icons/lib/md":
-/***/ (function(module, exports) {
-
-module.exports = require("react-icons/lib/md");
-
-/***/ }),
-
 /***/ "reactstrap":
 /***/ (function(module, exports) {
 
@@ -1214,4 +923,4 @@ module.exports = require("reactstrap");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=get-a-quote.js.map

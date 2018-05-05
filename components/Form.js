@@ -21,7 +21,6 @@ export default class Form extends React.Component {
 
   onSubmit = e => {
     e.preventDefault();
-    // setTimeout(function () { window.location.reload(); }, 4000)
 
     fetch("http://localhost:7000/send-email", {
       method: "POST",

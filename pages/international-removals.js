@@ -17,9 +17,8 @@ const InternationalRemovals = () => (
               Do you need to move overseas? are you seeking international
               removals experts? At London Removals, We have been helping our
               clients move abroad since 2001, and more and more customers are
-              choosing us over our competitors due to our exceptional
-              reputation. We are happy to serve you during unsociable hours,
-              weekends, evenings and public holidays and always do everything we
+              choosing us due to our exceptional
+              reputation. We are happy to serve you whenever you need us and always do everything we
               can to ensure your move runs as smoothly as possible, helping out
               with packing, labelling boxes and unpacking whenever needed. We
               are here to provide you with the first-class service that you
@@ -74,19 +73,17 @@ const InternationalRemovals = () => (
             as possible. We work hard to eliminate worry from our customers’
             minds, and the level of help we can offer means you don’t even need
             to lift a finger as part of the process if you don’t want or are
-            unable to.{" "}
+            unable to.
           </p>
-          <h2 className="h2">Request a quote today</h2>
+          <h2 className="h2">international moving quotes</h2>
           <p>
-            It’s easy to{" "}
+            It’s easy to
             <a className="a" href="/get-a-quote">
-              {" "}
               request a quote
-            </a>{" "}
+            </a>
             for an international move – you can do so simply by filling in the
-            contact form or giving us a call{" "}
+            contact form or giving us a call
             <a className="a" href="tel:07490531699">
-              {" "}
               07490531699
             </a>. Why wait any longer if you have been looking for the best
             international removals firm in London? Drop us a line today to find

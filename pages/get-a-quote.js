@@ -19,9 +19,9 @@ const GetAquote = () => (
             some of the most competitive quotes on the market. We are renowned
             for our flexibility and can come to your assistance whether your
             move is taking place during the daytime, on an evening, during the
-            night or on a weekend or public holiday, and can even help you when
+            night or on a weekend or public holiday, and assist you when
             packing and unpacking if needed to make the process of getting from
-            A to B even smoother.{" "}
+            A to B even smoother.
           </p>
           <br />
         </Col>
@@ -38,10 +38,9 @@ const GetAquote = () => (
         </p>
         <br />
         <Form />
-        <h2 className="h2">Bespoke quoting available</h2>
+        <h2 className="h2">Bespoke quoting available for free</h2>
         <p>
-          You can get a quote for your removal on this page or by calling us
-          today. We cover all parts of London and specialise in local, national
+          You can get as much as quotes you need for your removal 24/7. We cover all parts of London and specialise in local, national
           and even international moves. What’s more is that we can even come to
           visit you at your home or business premises if needed to provide a
           bespoke quotation. If this is not possible, we can offer an initial
