@@ -8,10 +8,12 @@ const GetAquote = () => (
   <div>
     <Head>
       <title>Get a quote</title>
+      <meta name="description" content="Speak with our expert team to get the most competative quote in London without spending a penny. Request a quote now"/>
     </Head>
     <Page>
       <Col className="main-container">
         <Col sm="12" md={{ size: 8, offset: 2 }}>
+        <br />
           <h1>Get a Quote from Top London Removals</h1>
           <p>
             we have vast experience behind us when it comes to moving the
@@ -29,11 +31,7 @@ const GetAquote = () => (
       <Col sm="12" md={{ size: 8, offset: 2 }}>
         <p>
           To get a quote for removal services or a man with van in London please
-          complete this form or give us a call{" "}
-          <a className="a" href="tel:07490531699">
-            {" "}
-            07490531699
-          </a>{" "}
+          complete this form or give us a call <a className="a" href="tel:07484675664"> 07484675664 </a>
           (24/7).
         </p>
         <br />

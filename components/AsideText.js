@@ -17,7 +17,7 @@ const AsideText = () => (
 		<a className='a' href="https://aussiegroup.co.uk/removals/" rel="nofollow" target="_blank"> Aussie </a>
 			is based in London, and beyond they have been doing this job for many years.
 		<a className='a' href="https://www.fantastic-removals.co.uk/" rel="nofollow" target="_blank"> Fantastic-Removals </a>
-			has got a big team to help Londoners to move their items across the country.</p>
+			has got a team to help Londoners to move their items across the country.</p>
 	</aside>
 );
 

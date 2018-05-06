@@ -11,8 +11,8 @@ import { Row, Col } from "reactstrap";
 const Home = () => (
   <div>
     <Head>
-      <title>London Removals - Top removals service free quotes 24/7</title>
-      <meta name="description" content="Top London Removals is a specialist home, office and international removals company since 2001. Get free quotes no obligations"/>
+      <title>London Removals - Top removal services get free quotes 24/7</title>
+      <meta name="description" content="Top London Removals is a specialist home, office and international removals company since 2001. You can request quotes for free 24/7 no obligations to receive the most competitive prices in the industry."/>
     </Head>
     <Page>
       <Row>

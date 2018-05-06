@@ -29,9 +29,6 @@ a.a {
 }
 .main-container {
   background-color: #66527b;
-  padding-bottom: 33px;
-  margin-bottom: 24px;
-  padding-right: 11px;
 }
 .main-container p,
 .main-container h1 {
@@ -4042,6 +4039,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 0.5rem 1rem;
 }
 
 .navbar > .container,

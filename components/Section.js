@@ -29,6 +29,8 @@ const Section = () => (
                     </Col>
                 </Row>
                 </Container>
+                <br />
+                <p className='text-center'>Not sure? call us now <a className="a" href="tel:07484675664"> 07484675664</a></p>
             </div>
         </div>
         <article>

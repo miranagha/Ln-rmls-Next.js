@@ -84,7 +84,7 @@ var AsideText = function AsideText() {
       fileName: _jsxFileName,
       lineNumber: 19
     }
-  }, " Fantastic-Removals "), "has got a big team to help Londoners to move their items across the country."));
+  }, " Fantastic-Removals "), "has got a team to help Londoners to move their items across the country."));
 };
 
 var _default = AsideText;
@@ -148,7 +148,7 @@ var Footer = function Footer() {
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     rel: "noopener noreferrer",
     className: "social-media",
-    href: "https://www.facebook.com/miran.agha46",
+    href: "#",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
@@ -205,7 +205,7 @@ var Footer = function Footer() {
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     className: "text-center",
@@ -214,7 +214,7 @@ var Footer = function Footer() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     }
   }, "Copyright @ 2018 Top London Removal | all rights reserved"));
 };
@@ -591,7 +591,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
- // import Link from 'next/link'
 
 
 
@@ -627,176 +626,176 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 34
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "text-right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 35
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "phone",
-        href: "tel:07490531699",
+        href: "tel:07484675664",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 36
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_fa_phone___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 37
         }
-      }), " 02080000000")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["j" /* Navbar */], {
+      }), "07484675664")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["j" /* Navbar */], {
         light: true,
         expand: "md",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 40
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["k" /* NavbarBrand */], {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 41
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/logo.png",
+        src: "/static/logo.jpg",
         alt: "Top london removals",
         className: "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 42
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["l" /* NavbarToggler */], {
         onClick: this.toggle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 48
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["b" /* Collapse */], {
         isOpen: this.state.isOpen,
         navbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 49
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["g" /* Nav */], {
         className: "ml-auto navi",
         navbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 50
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["h" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 51
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["i" /* NavLink */], {
         className: "aa",
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 52
         }
       }, "HOME")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["n" /* UncontrolledDropdown */], {
         nav: true,
         inNavbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 56
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["f" /* DropdownToggle */], {
         nav: true,
         caret: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 57
         }
       }, "REMOVALS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["e" /* DropdownMenu */], {
         right: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 60
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["d" /* DropdownItem */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 61
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["i" /* NavLink */], {
         href: "/home-removals",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 62
         }
       }, "Home Removals")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["d" /* DropdownItem */], {
         divider: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 64
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["d" /* DropdownItem */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 65
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["i" /* NavLink */], {
         href: "/office-removals",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 66
         }
       }, "Office Removals")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["d" /* DropdownItem */], {
         divider: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 68
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["d" /* DropdownItem */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 69
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["i" /* NavLink */], {
         href: "/international-removals",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 70
         }
       }, "International Removals")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["h" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 76
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["i" /* NavLink */], {
         href: "/man-and-van",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 77
         }
       }, "MAN AND VAN")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["h" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 79
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["i" /* NavLink */], {
         href: "/prices",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 80
         }
       }, "PRICES")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["h" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 82
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["i" /* NavLink */], {
         href: "/get-a-quote",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 83
         }
       }, "GET A QUOTE"))))));
     }
@@ -998,66 +997,84 @@ var Section = function Section() {
       fileName: _jsxFileName,
       lineNumber: 28
     }
-  }, "International"))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("article", {
+  }, "International"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 32
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    className: "text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    }
+  }, "Not sure? call us now ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "a",
+    href: "tel:07484675664",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    }
+  }, " 07484675664")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("article", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "h2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     }
   }, "Removals expert in London"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     }
   }, "Having been in the business since way back in 2001, we can be counted on to deliver the exceptional removal services that you require. We can also help you with packing, loading, unpacking and waste disposal, and can even provide the assistance you need when you need to assemble and disassemble furniture. We are fully-insured and treat your items with the utmost respect, providing a quality guarantee to each and every customer. Our specialised services are designed to take the stress out of relocation, and we have worked on a huge range of moves over the years."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "h2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     }
   }, "Reliable removals team"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     }
   }, "All our uniformed loaders and drivers are fully-trained and competent enough to carry out the work safely and professionally. We take pride in our quality assurance procedures and constantly seek out feedback from our clients to ensure we remain at the top. We understand better than anybody how important it is to need trustworthy and efficient partners when you move, and this is exactly the guarantee we provide to every customer. Not only are we fully insured, meaning we are fully responsible for all your items while they are being transported by us and a quality guarantee is provided to every customer, but we pride ourselves on being sensitive and adaptable."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "h2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     }
   }, "London office removals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     }
   }, "If you\u2019re a business, chances are you have big concerns about keeping downtime to a minimum and making the swiftest move you possibly can. If this is the case, let us step in. We can carefully pack and label all items on your behalf, remove and reassemble shelving systems to support your accounts team and carry out moves during evenings and weekends to diminish lost hours and revenue. Whether you\u2019re moving within the same complex or to another part of the country, we can help. Our business clients have included everyone from small start-ups to large, long-established organisations."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "h2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     }
   }, "Storage solutions available"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     }
   }, "You can rely on us to use our vast experience to make the experience as smooth as possible. In fact, you don\u2019t need to lift as much as a finger to use our services. We also offer short and long-term storage solutions, which means you are fully covered if you are not moving into your new home or business premises on the same day you leave your old base. We offer global moving services and can transport your goods to anywhere in the world."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 53
     }
   }, "Why not get in touch to  ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     className: "a",
     href: "/get-a-quote",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 54
     }
   }, " get a quote"), " today if you\u2019ve been looking for the best removals companies in London?")));
 };
@@ -1171,7 +1188,7 @@ var _default = function _default(_ref) {
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1525560350522");
+            injectCss(link, link.href.split("?")[0] + "?unix=1525641651316");
           });
       }
     }
@@ -79861,9 +79878,9 @@ var Home = function Home() {
       fileName: _jsxFileName,
       lineNumber: 14
     }
-  }, "London Removals - Top removals service free quotes 24/7"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+  }, "London Removals - Top removal services get free quotes 24/7"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
     name: "description",
-    content: "Top London Removals is a specialist home, office and international removals company since 2001. Get free quotes no obligations",
+    content: "Top London Removals is a specialist home, office and international removals company since 2001. You can request quotes for free 24/7 no obligations to receive the most competitive prices in the industry.",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -79974,7 +79991,7 @@ var _default = Home;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1525560350498");
+            injectCss(link, link.href.split("?")[0] + "?unix=1525641651298");
           });
       }
     }

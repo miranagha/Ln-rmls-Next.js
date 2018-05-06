@@ -7,6 +7,7 @@ const OfficeRemovals = () => (
   <section>
     <Head>
       <title>Office Removals London - </title>
+      <meta name="description" content="No matter how large your business is. Our office removals staff has a huge experience and capacity to carry out the job smoother than you expect. Call today to receive a free quote."/>
     </Head>
     <Page>
       <article>

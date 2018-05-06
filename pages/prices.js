@@ -7,6 +7,7 @@ const Prices = () => (
   <div>
     <Head>
       <title> Prices at London removals </title>
+      <meta name="description" content="See the list of prices in here. If they are not working for you, we are more than happy to talk to you and give you the exact cost of your move."/>
     </Head>
     <Page>
       <article>
@@ -30,17 +31,10 @@ const Prices = () => (
               {/* </ul> */}
             </div>
             <br />
-            <div className="text-right">
-              <a href="/get-a-quote">
-                <button className="btn btn-lg btn-removals" type="button">
-                  Get a quote now
-                </button>
-              </a>
-            </div>
-            <br />
             </Col>
         </Col>
         <Col sm="12" md={{ size: 8, offset: 2 }}>
+        <br />
           <h2 className="h2">Option 1 – Pay by the hour</h2>
           <p>
             Many customers opt for our Pay by the Hour service. This service is
@@ -99,8 +93,7 @@ const Prices = () => (
             <br />
             To find out more about using our Everything Else service or to
             <a className="a" href="/get-a-quote"> get a quote </a>, call us on
-            <a className="a" href="tel:07490531699"> 07490531699 </a>.
-          </p>
+            <a className="a" href="tel:07484675664"> 07484675664</a>          </p>
         </Col>
       </article>
     </Page>

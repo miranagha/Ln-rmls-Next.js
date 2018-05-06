@@ -6,7 +6,8 @@ import { Container, Row, Col } from "reactstrap";
 const ManAndVan = () => (
   <div>
     <Head>
-      <title>Man And Van</title>
+      <title>London Man And Van</title>
+      <meta name="description" content="Do you want man with a van now? just give us a call we will be at your place in less than half an hour, and you do not need to touch anything leave the hard work for us"/>
     </Head>
     <Page>
       <Col className="main-container">
@@ -76,11 +77,8 @@ const ManAndVan = () => (
           <br />
           <br />
           <br />
-          Getting a quote is easy – just{" "}
-          <a className="a" href="/get-a-quote">
-            {" "}
-            complete the form{" "}
-          </a>
+          Getting a quote from man and van is easy – just
+          <a className="a" href="/get-a-quote"> complete the form </a>
           or call the number above and we will be happy to give you a price
           based on your specific needs.
         </p>

@@ -6,7 +6,8 @@ import { Container, Row, Col } from "reactstrap";
 const InternationalRemovals = () => (
   <div>
     <Head>
-      <title>International Removals</title>
+      <title>International London Removals</title>
+      <meta name="description" content="Do you move outside the country? Our international friendly team at Top London Removals is happy to talk to you and do the hard work for you. We cover all EU countries and cities including Berlin, Barcelona, Paris. etc.."/>
     </Head>
     <Page>
       <article>
@@ -37,6 +38,7 @@ const InternationalRemovals = () => (
           </Col>
         </Col>
         <Col sm="12" md={{ size: 8, offset: 2 }}>
+        <br />
           <h2 className="h2">We can pack for you</h2>
           <p>
             We are fully-insured to carry out international removals and use all
@@ -78,14 +80,11 @@ const InternationalRemovals = () => (
           <h2 className="h2">international moving quotes</h2>
           <p>
             It’s easy to
-            <a className="a" href="/get-a-quote">
-              request a quote
-            </a>
+            <a className="a" href="/get-a-quote"> request a quote </a>
             for an international move – you can do so simply by filling in the
             contact form or giving us a call
-            <a className="a" href="tel:07490531699">
-              07490531699
-            </a>. Why wait any longer if you have been looking for the best
+            <a className="a" href="tel:07484675664"> 07484675664</a>
+            . Why wait any longer if you have been looking for the best
             international removals firm in London? Drop us a line today to find
             out more.
           </p>

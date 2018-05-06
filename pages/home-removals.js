@@ -6,7 +6,8 @@ import { Container, Row, Col } from "reactstrap";
 const HomeRemovals = () => (
   <section>
     <Head>
-      <title>Home Removals</title>
+      <title>Home Removals - Flat removals</title>
+      <meta name="description" content="Do you need a hand for your house relocation? Top London removals is ready to assit you and take your stress out"/>
     </Head>
     <Page>
       <article>
@@ -33,6 +34,7 @@ const HomeRemovals = () => (
           </Col>
         </Col>
       <Col sm="12" md={{ size: 8, offset: 2 }}>
+      <br />
           <h2 className="h2">A highly-recommended house mover</h2>
           <p>
             We have been in the business for well over 15 years, and more and
@@ -78,10 +80,7 @@ const HomeRemovals = () => (
             us today and get a competitive quote for your house move? We are fully
             insured and always treat our clients' items with the utmost respect.
             <br />Get the wheels in motion and talk to our friendly,
-            professional team today<a className="a" href="tel:07490531699">
-              {" "}
-              07490531699
-            </a>.
+            professional team today <a className="a" href="tel:07484675664"> 07484675664</a>
           </p>
         </Col>
       </article>
