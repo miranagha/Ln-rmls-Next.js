@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from 'next/link'
 import {
   Collapse,
   Navbar,
@@ -38,20 +38,20 @@ export default class Example extends React.Component {
           </a>
         </div>
         <Navbar light expand="md">
-          <NavbarBrand href="/">
+            <Link href='/'>
+            <a>
             <img
               src="/static/logo.jpg"
               alt="Top london removals"
               className='logo'
             />
-          </NavbarBrand>
+            </a>
+            </Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto navi" navbar>
               <NavItem>
-                <NavLink className="aa" href="/">
-                  HOME
-                </NavLink>
+                <Link href='/' passHref><a className='a-nav' >HOME</a></Link>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -59,28 +59,26 @@ export default class Example extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <NavLink href="/home-removals">Home Removals</NavLink>
+                <Link href='/home-removals' passHref><a className='a-nav'>HOME REMOVALS</a></Link>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    <NavLink href="/office-removals">Office Removals</NavLink>
+                <Link href='/office-removals' passHref><a className='a-nav'>OFFICE REMOVALS</a></Link>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    <NavLink href="/international-removals">
-                      International Removals
-                    </NavLink>
+                <Link href='/international-removals' passHref><a className='a-nav'>INTERNATIONAL REMOVALS</a></Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/man-and-van">MAN AND VAN</NavLink>
+                <Link href='/man-and-van' passHref><a className='a-nav'>MAN AND VAN</a></Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/prices">PRICES</NavLink>
+                <Link href='/prices' passHref><a className='a-nav'>PRICES</a></Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/get-a-quote">GET A QUOTE</NavLink>
+                <Link href='/get-a-quote' passHref><a className='a-nav'>GET A QUOTE</a></Link>
               </NavItem>
             </Nav>
           </Collapse>

@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from 'next/link'
 import Page from "../layouts/main";
 import { Container, Row, Col } from "reactstrap";
 
@@ -13,6 +14,7 @@ const HomeRemovals = () => (
       <article>
       <Col className="main-container">
         <Col sm="12" md={{ size: 8, offset: 2 }}>
+        <br />
             <h1>London Home Removals</h1>
             <p>
               move home in comfort and style. We can come to your assistance,
@@ -24,11 +26,11 @@ const HomeRemovals = () => (
             </p>
             <br />
             <div className="text-right">
-              <a href="/get-a-quote">
+              <Link href="/get-a-quote">
                 <button className="btn btn-lg btn-removals" type="button">
                   Get a quote now
                 </button>
-              </a>
+              </Link>
             </div>
             <br />
           </Col>

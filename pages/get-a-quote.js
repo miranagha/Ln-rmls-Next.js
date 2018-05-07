@@ -29,6 +29,8 @@ const GetAquote = () => (
         </Col>
       </Col>
       <Col sm="12" md={{ size: 8, offset: 2 }}>
+      <br />
+
         <p>
           To get a quote for removal services or a man with van in London please
           complete this form or give us a call <a className="a" href="tel:07484675664"> 07484675664 </a>
@@ -36,6 +38,7 @@ const GetAquote = () => (
         </p>
         <br />
         <Form />
+        <br />
         <h2 className="h2">Bespoke quoting available for free</h2>
         <p>
           You can get as much as quotes you need for your removal 24/7. We cover all parts of London and specialise in local, national
@@ -59,6 +62,7 @@ const GetAquote = () => (
         </p>
       </Col>
     </Page>
+    <br />
   </div>
 );
 

@@ -6,8 +6,6 @@ var express = require('express'),
 
     var app = express();
     app.use(cors())
-    // app.set('view engine', 'js');
-    // app.use(express.static('public'));
     app.use(bodyParser.urlencoded({extended: true}));
     app.use(bodyParser.json());
     var port = 7000;
@@ -22,7 +20,7 @@ var express = require('express'),
           secure: true,
           auth: {
               user: 'm.agha46@gmail.com',
-              pass: ''
+              pass: '80pokpok'
           }
       });
       let mailOptions = {
@@ -39,7 +37,7 @@ var express = require('express'),
 
        transporter.sendMail(mailOptions, (error, info) => {
            if (error) {
-            //    return console.log(error);
+
             res.status(400);
             res.json({ error });
            }

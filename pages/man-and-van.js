@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Page from "../layouts/main";
+import Link from 'next/link'
+
 import { Container, Row, Col } from "reactstrap";
 
 const ManAndVan = () => (
@@ -12,6 +14,7 @@ const ManAndVan = () => (
     <Page>
       <Col className="main-container">
         <Col sm="12" md={{ size: 8, offset: 2 }}>
+        <br />
           <h1>London man and van</h1>
           <p>
             Look for man and van services in London? we have been taking the
@@ -27,11 +30,11 @@ const ManAndVan = () => (
             you require a man and van service in London.
           </p>
           <div className="text-right">
-            <a href="/get-a-quote">
+          <Link href="/get-a-quote">
               <button className="btn btn-lg btn-removals" type="button">
-                Get a quote now
+                  Get a quote now
               </button>
-            </a>
+          </Link>
           </div>
           <br />
         </Col>
@@ -78,7 +81,7 @@ const ManAndVan = () => (
           <br />
           <br />
           Getting a quote from man and van is easy – just
-          <a className="a" href="/get-a-quote"> complete the form </a>
+          <Link href='/get-a-quote' passHref><a className='a'> complete the form </a></Link>
           or call the number above and we will be happy to give you a price
           based on your specific needs.
         </p>

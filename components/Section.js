@@ -1,5 +1,6 @@
 import React from "react";
-import "../style.css"
+import Link from 'next/link';
+import "../style.css";
 import {MdPublic, MdLocationCity, MdHome} from 'react-icons/lib/md';
 import { Container, Row, Col } from 'reactstrap';
 
@@ -51,7 +52,8 @@ const Section = () => (
                 You can rely on us to use our vast experience to make the experience as smooth as possible. In fact, you don’t need to lift as much as a finger to use our services. We also offer short and long-term storage solutions, which means you are fully covered if you are not moving into your new home or business premises on the same day you leave your old base. We offer global moving services and can transport your goods to anywhere in the world.
             </p>
             <p>
-                Why not get in touch to  <a  className='a' href='/get-a-quote'> get a quote</a> today if you’ve been looking for the best removals companies in London?
+            Why not get in touch to <Link href='/get-a-quote' passHref><a className='a'> get a quote </a></Link>
+            today if you’ve been looking for the best removals companies in London?
         </p>
 
         </article>

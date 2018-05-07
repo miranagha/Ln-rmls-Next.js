@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from 'next/link';
 import Page from "../layouts/main";
 import { Container, Row, Col } from "reactstrap";
 
@@ -13,6 +14,7 @@ const InternationalRemovals = () => (
       <article>
         <Col className="main-container">
           <Col sm="12" md={{ size: 8, offset: 2 }}>
+          <br />
             <h1 style={{ fontSize: "35px" }}>International Removals</h1>
             <p>
               Do you need to move overseas? are you seeking international
@@ -28,11 +30,11 @@ const InternationalRemovals = () => (
             </p>
             <br />
             <div className="text-right">
-              <a href="/get-a-quote">
+            <Link href="/get-a-quote">
                 <button className="btn btn-lg btn-removals" type="button">
                   Get a quote now
                 </button>
-              </a>
+              </Link>
             </div>
             <br />
           </Col>
@@ -80,7 +82,7 @@ const InternationalRemovals = () => (
           <h2 className="h2">international moving quotes</h2>
           <p>
             It’s easy to
-            <a className="a" href="/get-a-quote"> request a quote </a>
+            <Link href='/get-a-quote' passHref><a className='a'> request a quote </a></Link>
             for an international move – you can do so simply by filling in the
             contact form or giving us a call
             <a className="a" href="tel:07484675664"> 07484675664</a>

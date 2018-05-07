@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from 'next/link'
 import Page from "../layouts/main";
 import { Container, Row, Col } from "reactstrap";
 
@@ -13,6 +14,7 @@ const Prices = () => (
       <article>
       <Col className="main-container">
           <Col sm="12" md={{ size: 8, offset: 2 }}>
+          <br />
             <h1 style={{ fontSize: "50px" }}>Prices</h1>
             <p>
               At London Removals, we are able to offer some of the most
@@ -92,7 +94,7 @@ const Prices = () => (
             <br />
             <br />
             To find out more about using our Everything Else service or to
-            <a className="a" href="/get-a-quote"> get a quote </a>, call us on
+            <Link href='/get-a-quote' passHref><a className='a'> get a quote </a></Link>, call us on
             <a className="a" href="tel:07484675664"> 07484675664</a>          </p>
         </Col>
       </article>

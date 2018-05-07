@@ -1,7 +1,8 @@
 import React from "react";
 import Head from "next/head";
+import Link from 'next/link';
 import Page from "../layouts/main";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 
 const OfficeRemovals = () => (
   <section>
@@ -13,6 +14,7 @@ const OfficeRemovals = () => (
       <article>
         <Col className="main-container">
           <Col sm="12" md={{ size: 8, offset: 2 }}>
+          <br />
             <h1 style={{ fontSize: "36px" }}>London Office Removals</h1>
             <p>
               There’s no doubt that a great deal of planning and time goes into
@@ -27,16 +29,17 @@ const OfficeRemovals = () => (
             </p>
             <br />
             <div className="text-right">
-              <a href="/get-a-quote">
+            <Link href="/get-a-quote">
                 <button className="btn btn-lg btn-removals" type="button">
                   Get a quote now
                 </button>
-              </a>
+              </Link>
             </div>
             <br />
           </Col>
         </Col>
         <Col sm="12" md={{ size: 8, offset: 2 }}>
+        <br />
           <h2 className="h2">office relocation in style</h2>
           <p>
             We always treat your office equipment, furniture and other goods
@@ -82,7 +85,7 @@ const OfficeRemovals = () => (
             the most competitive prices on the market, without ever making
             sacrifices on quality.
             <br />Why not get in touch to
-            <a className='a' href="/get-a-quote"> get a quote</a> today if you need to move
+            <Link href='/get-a-quote' passHref><a className='a'> get a quote </a></Link> today if you need to move
             offices in London?
           </p>
         </Col>

@@ -26,6 +26,17 @@ a.a {
 .navbar-light .navbar-nav .nav-link {
   font-weight: bold;
   font-size: 15px;
+  padding-top: 0px;
+}
+.a-nav {
+  color: #f90;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 12px;
+}
+.a-nav:hover {
+  color: black;
+  text-decoration: none;
 }
 .main-container {
   background-color: #66527b;
