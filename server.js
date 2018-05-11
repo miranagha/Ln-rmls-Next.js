@@ -41,7 +41,7 @@ var express = require('express'),
             res.status(400);
             res.json({ error });
            }
-              console.log('Message %s sent: %s', info.messageId, info.response);
+              // console.log('Message %s sent: %s', info.messageId, info.response);
                res.json({ msg: 'You email has been sent' })
             });
       });

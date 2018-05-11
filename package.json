@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "next build"
+    "server": "nodemon server.js",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
@@ -17,13 +18,16 @@
     "bootstrap": "^4.1.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "micro": "^9.3.0",
     "next": "^6.0.0-canary.6",
     "nodemailer": "^4.6.4",
     "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-icons": "^2.2.7",
     "reactstrap": "^5.0.0"
   },
   "devDependencies": {
+    "next": "latest",
     "css-loader": "^0.28.11",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0"

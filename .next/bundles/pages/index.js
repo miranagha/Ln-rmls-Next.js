@@ -2,7 +2,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/', function() {
           var comp = 
-      webpackJsonp([7],{
+      webpackJsonp([5],{
 
 /***/ "./components/AsideText.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -300,7 +300,7 @@ function (_React$Component) {
       writable: true,
       value: function value(e) {
         e.preventDefault();
-        fetch("http://localhost:7000/send-email", {
+        fetch("".concat(window.location.protocol, "//").concat(window.location.hostname, ":7000/send-email"), {
           method: "POST",
           body: JSON.stringify(_this.state),
           credentials: "same-origin",
@@ -343,27 +343,27 @@ function (_React$Component) {
         className: "contact-form",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 55
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("fieldset", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 56
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("legend", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 57
         }
       }, "Request a free quote:"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 58
         }
       }, "name*"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 59
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         name: "name",
@@ -373,22 +373,22 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 60
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 65
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 66
         }
       }, "Phone Number*"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 67
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         name: "phone",
@@ -398,22 +398,22 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 68
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 73
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 74
         }
       }, "Email"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 75
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         name: "email",
@@ -423,22 +423,22 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 76
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 81
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 82
         }
       }, "Pick up Postcode"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 83
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         name: "pickUp",
@@ -448,22 +448,22 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 84
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 89
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 90
         }
       }, "delivery Postcode"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 91
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
         name: "delivery",
@@ -473,22 +473,22 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 92
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 97
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 98
         }
       }, "Items"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 99
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
         cols: "27",
@@ -501,12 +501,12 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 100
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 108
         }
       }), this.state.submitted ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         style: {
@@ -514,7 +514,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 110
         }
       }, "THANK YOU ! We will get back to you within an hour") : null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
         type: "submit",
@@ -524,7 +524,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 115
         }
       }, "Send")));
     }
@@ -1260,7 +1260,7 @@ module.exports = __webpack_require__("./node_modules/core-js/library/fn/json/str
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1525710076764");
+            injectCss(link, link.href.split("?")[0] + "?unix=1526039682058");
           });
       }
     }
@@ -80834,42 +80834,56 @@ var Home = function Home() {
       fileName: _jsxFileName,
       lineNumber: 15
     }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__layouts_main__["a" /* default */], {
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+    name: "google-site-verification",
+    content: "VsHncoHhcXRVYyv61NQAx_3Kz8YVDSY5jB20QTMZ6LE",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+    rel: "canonical",
+    href: "http://top-london-removals.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     }
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__layouts_main__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_reactstrap__["k" /* Row */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_reactstrap__["a" /* Col */], {
     md: "8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 21
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Section_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     }
   })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_reactstrap__["a" /* Col */], {
     md: "4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Form_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 25
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_AsideText_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 26
     }
   })))));
 };
@@ -80940,7 +80954,7 @@ var _default = Home;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1525720348834");
+            injectCss(link, link.href.split("?")[0] + "?unix=1526039682028");
           });
       }
     }

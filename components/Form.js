@@ -22,15 +22,20 @@ export default class Form extends React.Component {
   onSubmit = e => {
     e.preventDefault();
 
-    fetch("http://localhost:7000/send-email", {
-      method: "POST",
-      body: JSON.stringify(this.state),
-      credentials: "same-origin",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json"
+    fetch(
+      `${window.location.protocol}//${
+        window.location.hostname
+      }:7000/send-email`,
+      {
+        method: "POST",
+        body: JSON.stringify(this.state),
+        credentials: "same-origin",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json"
+        }
       }
-    })
+    )
       .then(res => {
         this.setState({
           submitted: true,

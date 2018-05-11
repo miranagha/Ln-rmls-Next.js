@@ -13,6 +13,8 @@ const Home = () => (
     <Head>
       <title>London Removals - Top removal services get free quotes 24/7</title>
       <meta name="description" content="Top London Removals is a specialist home, office and international removals company since 2001. You can request quotes for free 24/7 no obligations to receive the most competitive prices in the industry."/>
+      <meta name="google-site-verification" content="VsHncoHhcXRVYyv61NQAx_3Kz8YVDSY5jB20QTMZ6LE" />
+      <link rel="canonical" href="http://top-london-removals.com/" />
     </Head>
     <Page>
       <Row>
