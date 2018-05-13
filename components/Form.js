@@ -25,7 +25,7 @@ export default class Form extends React.Component {
     fetch(
       `${window.location.protocol}//${
         window.location.hostname
-      }:7000/send-email`,
+      }/send-email`,
       {
         method: "POST",
         body: JSON.stringify(this.state),
