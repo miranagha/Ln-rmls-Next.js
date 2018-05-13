@@ -3,26 +3,35 @@ var express = require('express'),
     nodeMailer = require('nodemailer'),
     bodyParser = require('body-parser');
     cors = require('cors')
-
     var app = express();
     app.use(cors())
     app.use(bodyParser.urlencoded({extended: true}));
     app.use(bodyParser.json());
     var port = 7000;
-    // app.get('/', cors(),function (req, res) {
-    //   res.render('App');
-    // });
+
+    console.error('im 1');
+
+    app.get("/*", function(req, res) {
+      res.sendFile(path.join(__dirname, "./pages/index.js"), function(err) {
+        if (err) {
+          res.status(500).send(err);
+        }
+      });
+    });
     app.post('/send-email', cors(),function (req, res) {
+      console.error('im 3');
 
       let transporter = nodeMailer.createTransport({
           host: 'smtp.gmail.com',
           port: 465,
           secure: true,
           auth: {
-              user: 'm.agha46@gmail.com',
-              pass: ''
+              user: 'meerhama66@gmail.com',
+              pass: '00pokpok'
           }
       });
+    console.error('im 4');
+
       let mailOptions = {
           from: "New Request" , // sender address
           to: 'm.agha46@gmail.com',
@@ -32,16 +41,19 @@ var express = require('express'),
                  Email: ${req.body.email} <br /><br />
                  Pick up postcode: ${req.body.pickUp} <br /><br />
                  Delivery postcode: ${req.body.delivery} <br /><br />
-                 Items: ${req.body.items}`
+                 Items: ${req.body.items}
+                 ${console.log('im here')}`
         };
+        console.error('im 5');
 
        transporter.sendMail(mailOptions, (error, info) => {
            if (error) {
+            console.error('im 6');
 
             res.status(400);
             res.json({ error });
            }
-              // console.log('Message %s sent: %s', info.messageId, info.response);
+              console.log('Message sent: ');
                res.json({ msg: 'You email has been sent' })
             });
       });
