@@ -25,7 +25,7 @@ const Prices = () => (
             <div className="prices">
               <h2 className="h2"> WE PROVIDE:</h2>
               {/* <ul> */}
-                <li>Small, medium, or Luton vans</li>
+                <li>Small, medium, and Luton vans</li>
                 <li>well-trained and friendly staff</li>
                 <li>Loading, unloading</li>
                 <li>No VAT</li>
@@ -45,7 +45,7 @@ const Prices = () => (
             hidden costs and the price you see is the price you pay.
             <br />
             <br />
-            <li>1 Man and Van = £40 per hour</li>
+            <li>1 Man and Van = £35 per hour</li>
             <br />
             <li>2 Men and Van = £50 per hour</li>
             <br />
@@ -95,7 +95,7 @@ const Prices = () => (
             <br />
             To find out more about using our Everything Else service or to
             <Link href='/get-a-quote' passHref><a className='a'> get a quote </a></Link>, call us on
-            <a className="a" href="tel:07484675664"> 07484675664</a>          </p>
+            <a className="a" href="tel:07459896495"> 07459896495</a> </p>
         </Col>
       </article>
     </Page>

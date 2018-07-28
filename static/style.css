@@ -16,18 +16,26 @@ body {
 h2.h2 {
   color: #f90;
 }
+h3.h3 {
+  color: #f90;
+}
 p {
   text-align: justify;
   text-justify: inter-word;
 }
+
 a.a {
   color: #f90;
 }
+
 .navbar-light .navbar-nav .nav-link {
   font-weight: bold;
   font-size: 15px;
   padding-top: 0px;
+  color: #f90 !important;
+  border-radius: 9px;
 }
+
 .a-nav {
   color: #f90;
   font-size: 14px;
@@ -35,8 +43,14 @@ a.a {
   padding-right: 12px;
 }
 .a-nav:hover {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+}
+.h2.types {
+  font-weight:bold;
+}
+.typesofmoves {
+  color: #fff;
 }
 .main-container {
   background-color: #66527b;
@@ -51,7 +65,7 @@ p li {
 }
 .material-icon.material-icon-lg {
   font-size: 99px;
-  color: #f94;
+  color: #f90;
   text-align: center;
 }
 .btn-removals {
@@ -77,6 +91,9 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+label {
+  padding-top: 9px;
+}
 
 button[type="submit"] {
   width: 100%;
@@ -94,12 +111,17 @@ button[type="submit"]:hover {
   background-color: rgb(255, 161, 21);
   color: black;
 }
+.thankYou {
+  color: green;
+}
 .social-media {
   color: #f90;
   padding: 10px;
   font-size: 20px;
 }
-
+.copyRight {
+  color: #808080;
+}
 .prices {
   color: #fff;
 }
@@ -110,9 +132,6 @@ button[type="submit"]:hover {
   .phone {
     font-size: 23px;
   }
-  /* .col-xs-4.icons-div {
-		width: 50%
-	} */
   .section {
     padding-right: 3px;
   }

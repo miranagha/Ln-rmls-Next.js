@@ -1,6 +1,5 @@
 import React from "react";
 import Link from 'next/link';
-import "../style.css";
 import {MdPublic, MdLocationCity, MdHome} from 'react-icons/lib/md';
 import { Container, Row, Col } from 'reactstrap';
 
@@ -8,12 +7,13 @@ import { Container, Row, Col } from 'reactstrap';
 const Section = () => (
     <section>
         <div className="main-container col-lg-12">
+        <br />
             <h1 className='text-center' >Top London Removals</h1>
             <p className="text-eft">
-                In London on moving day without a plan? you need a man with a van service. At London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you’re relocating overseas. We have a diverse client base and can assist you whether you’re moving a single item or are a large corporation wishing to relocate.
+                In London on moving day without a plan? you need a man with a van service. At Top London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you’re relocating overseas. Our company has a diverse client base and can assist you whether you’re moving a single item or are a large corporation wishing to relocate.
             </p>
             <div>
-              <h2 className='text-center h2' style={{fontWeight:'bold'}}>Types of <span style={{color:'white'}}>Moves</span></h2>
+              <h2 className='text-center h2 types'>Types of <span className='typesofmoves'>Moves</span></h2>
             <Container>
                 <Row className="text-center">
                     <Col>
@@ -31,15 +31,15 @@ const Section = () => (
                 </Row>
                 </Container>
                 <br />
-                <p className='text-center'>Not sure? call us now <a className="a" href="tel:07484675664"> 07484675664</a></p>
+                <p className='text-center'>Not sure? call us now <a className="a" href="tel:07459896495">07459896495</a></p>
             </div>
         </div>
         <article>
-            <h2 className='h2'>Removals expert in London</h2>
+            <h2 className='h2'>Top removals expert in London</h2>
             <p>
                 Having been in the business since way back in 2001, we can be counted on to deliver the exceptional removal services that you require. We can also help you with packing, loading, unpacking and waste disposal, and can even provide the assistance you need when you need to assemble and disassemble furniture. We are fully-insured and treat your items with the utmost respect, providing a quality guarantee to each and every customer. Our specialised services are designed to take the stress out of relocation, and we have worked on a huge range of moves over the years.
             </p>
-            <h2 className='h2'>Reliable removals team</h2>
+            <h2 className='h2'>Reliable removals company</h2>
             <p>
                 All our uniformed loaders and drivers are fully-trained and competent enough to carry out the work safely and professionally. We take pride in our quality assurance procedures and constantly seek out feedback from our clients to ensure we remain at the top. We understand better than anybody how important it is to need trustworthy and efficient partners when you move, and this is exactly the guarantee we provide to every customer. Not only are we fully insured, meaning we are fully responsible for all your items while they are being transported by us and a quality guarantee is provided to every customer, but we pride ourselves on being sensitive and adaptable.
             </p>

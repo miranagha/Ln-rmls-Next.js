@@ -2,33 +2,33 @@
   "name": "london-removals",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "server": "nodemon server.js",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.54",
     "@zeit/next-css": "^0.1.5",
     "bootstrap": "^4.1.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
-    "micro": "^9.3.0",
-    "next": "^6.0.0-canary.6",
     "nodemailer": "^4.6.4",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-ga": "^2.5.3",
     "react-icons": "^2.2.7",
-    "reactstrap": "^5.0.0"
+    "reactstrap": "^5.0.0",
+    "styled-jsx": "^2.2.7"
   },
   "devDependencies": {
-    "next": "latest",
+    "concurrently": "^3.5.1",
     "css-loader": "^0.28.11",
+    "next": "^6.1.1",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0"
   }

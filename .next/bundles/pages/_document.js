@@ -1,8 +1,7 @@
 module.exports =
-
-        __NEXT_REGISTER_PAGE('/_document', function() {
-          var comp = 
-      webpackJsonp([1],{
+__NEXT_REGISTER_PAGE('/_document', function() {
+          var comp =
+      webpackJsonp([2],{
 
 /***/ "./node_modules/@babel/runtime/helpers/extends.js":
 /***/ (function(module, exports, __webpack_require__) {
@@ -451,13 +450,13 @@ var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./
 
 var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
 
-var _react = _interopRequireWildcard(__webpack_require__("./node_modules/react/cjs/react.development.js"));
+var _react = _interopRequireWildcard(__webpack_require__("./node_modules/react/index.js"));
 
 var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/prop-types/index.js"));
 
 var _htmlescape = _interopRequireDefault(__webpack_require__("./node_modules/htmlescape/htmlescape.js"));
 
-var _server = _interopRequireDefault(__webpack_require__("./node_modules/styled-jsx/server.js"));
+var _server = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/styled-jsx/server.js"));
 
 /* eslint-disable */
 var Fragment = _react.default.Fragment || function Fragment(_ref) {
@@ -536,6 +535,8 @@ function (_Component2) {
   (0, _createClass2.default)(Head, [{
     key: "getChunkPreloadLink",
     value: function getChunkPreloadLink(filename) {
+      var _this = this;
+
       var _context$_documentPro = this.context._documentProps,
           __NEXT_DATA__ = _context$_documentPro.__NEXT_DATA__,
           buildManifest = _context$_documentPro.buildManifest;
@@ -545,6 +546,7 @@ function (_Component2) {
       return files.map(function (file) {
         return _react.default.createElement("link", {
           key: filename,
+          nonce: _this.props.nonce,
           rel: "preload",
           href: "".concat(assetPrefix, "/_next/").concat(file),
           as: "script"
@@ -566,6 +568,8 @@ function (_Component2) {
   }, {
     key: "getPreloadDynamicChunks",
     value: function getPreloadDynamicChunks() {
+      var _this2 = this;
+
       var _context$_documentPro2 = this.context._documentProps,
           chunks = _context$_documentPro2.chunks,
           __NEXT_DATA__ = _context$_documentPro2.__NEXT_DATA__;
@@ -575,7 +579,8 @@ function (_Component2) {
           key: chunk,
           rel: "preload",
           href: "".concat(assetPrefix, "/_next/webpack/chunks/").concat(chunk),
-          as: "script"
+          as: "script",
+          nonce: _this2.props.nonce
         });
       });
     }
@@ -598,15 +603,18 @@ function (_Component2) {
       }), page !== '/_error' && _react.default.createElement("link", {
         rel: "preload",
         href: "".concat(assetPrefix, "/_next/").concat(buildId, "/page").concat(pagePathname),
-        as: "script"
+        as: "script",
+        nonce: this.props.nonce
       }), _react.default.createElement("link", {
         rel: "preload",
         href: "".concat(assetPrefix, "/_next/").concat(buildId, "/page/_app.js"),
-        as: "script"
+        as: "script",
+        nonce: this.props.nonce
       }), _react.default.createElement("link", {
         rel: "preload",
         href: "".concat(assetPrefix, "/_next/").concat(buildId, "/page/_error.js"),
-        as: "script"
+        as: "script",
+        nonce: this.props.nonce
       }), this.getPreloadDynamicChunks(), this.getPreloadMainLinks(), styles || null, this.props.children);
     }
   }]);
@@ -620,6 +628,14 @@ Object.defineProperty(Head, "contextTypes", {
   writable: true,
   value: {
     _documentProps: _propTypes.default.any
+  }
+});
+Object.defineProperty(Head, "propTypes", {
+  configurable: true,
+  enumerable: true,
+  writable: true,
+  value: {
+    nonce: _propTypes.default.string
   }
 });
 
@@ -678,6 +694,8 @@ function (_Component4) {
   (0, _createClass2.default)(NextScript, [{
     key: "getChunkScript",
     value: function getChunkScript(filename) {
+      var _this3 = this;
+
       var additionalProps = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
       var _context$_documentPro5 = this.context._documentProps,
           __NEXT_DATA__ = _context$_documentPro5.__NEXT_DATA__,
@@ -688,7 +706,8 @@ function (_Component4) {
       return files.map(function (file) {
         return _react.default.createElement("script", (0, _extends2.default)({
           key: filename,
-          src: "".concat(assetPrefix, "/_next/").concat(file)
+          src: "".concat(assetPrefix, "/_next/").concat(file),
+          nonce: _this3.props.nonce
         }, additionalProps));
       });
     }
@@ -710,6 +729,8 @@ function (_Component4) {
   }, {
     key: "getDynamicChunks",
     value: function getDynamicChunks() {
+      var _this4 = this;
+
       var _context$_documentPro6 = this.context._documentProps,
           chunks = _context$_documentPro6.chunks,
           __NEXT_DATA__ = _context$_documentPro6.__NEXT_DATA__;
@@ -718,7 +739,8 @@ function (_Component4) {
         return _react.default.createElement("script", {
           async: true,
           key: chunk,
-          src: "".concat(assetPrefix, "/_next/webpack/chunks/").concat(chunk)
+          src: "".concat(assetPrefix, "/_next/webpack/chunks/").concat(chunk),
+          nonce: _this4.props.nonce
         });
       }));
     }
@@ -743,15 +765,18 @@ function (_Component4) {
       }), page !== '/_error' && _react.default.createElement("script", {
         async: true,
         id: "__NEXT_PAGE__".concat(pathname),
-        src: "".concat(assetPrefix, "/_next/").concat(buildId, "/page").concat(pagePathname)
+        src: "".concat(assetPrefix, "/_next/").concat(buildId, "/page").concat(pagePathname),
+        nonce: this.props.nonce
       }), _react.default.createElement("script", {
         async: true,
         id: "__NEXT_PAGE__/_app",
-        src: "".concat(assetPrefix, "/_next/").concat(buildId, "/page/_app.js")
+        src: "".concat(assetPrefix, "/_next/").concat(buildId, "/page/_app.js"),
+        nonce: this.props.nonce
       }), _react.default.createElement("script", {
         async: true,
         id: "__NEXT_PAGE__/_error",
-        src: "".concat(assetPrefix, "/_next/").concat(buildId, "/page/_error.js")
+        src: "".concat(assetPrefix, "/_next/").concat(buildId, "/page/_error.js"),
+        nonce: this.props.nonce
       }), staticMarkup ? null : this.getDynamicChunks(), staticMarkup ? null : this.getScripts());
     }
   }]);
@@ -794,32 +819,7 @@ module.exports = __webpack_require__("./node_modules/next/dist/server/document.j
 
 /***/ }),
 
-/***/ "./node_modules/string-hash/index.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function hash(str) {
-  var hash = 5381,
-      i    = str.length;
-
-  while(i) {
-    hash = (hash * 33) ^ str.charCodeAt(--i);
-  }
-
-  /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
-   * integers. Since we want the results to be always positive, convert the
-   * signed int to an unsigned by doing an unsigned bitshift. */
-  return hash >>> 0;
-}
-
-module.exports = hash;
-
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js":
+/***/ "./node_modules/next/node_modules/styled-jsx/dist/lib/stylesheet.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1099,11 +1099,11 @@ function invariant(condition, message) {
     throw new Error('StyleSheet: ' + message + '.');
   }
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/node-libs-browser/node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/process/browser.js")))
 
 /***/ }),
 
-/***/ "./node_modules/styled-jsx/dist/server.js":
+/***/ "./node_modules/next/node_modules/styled-jsx/dist/server.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1124,11 +1124,11 @@ var _getIterator3 = _interopRequireDefault(_getIterator2);
 exports.default = flushToReact;
 exports.flushToHTML = flushToHTML;
 
-var _react = __webpack_require__("./node_modules/react/cjs/react.development.js");
+var _react = __webpack_require__("./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _style = __webpack_require__("./node_modules/styled-jsx/dist/style.js");
+var _style = __webpack_require__("./node_modules/next/node_modules/styled-jsx/dist/style.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1207,7 +1207,7 @@ function flushToHTML() {
 
 /***/ }),
 
-/***/ "./node_modules/styled-jsx/dist/style.js":
+/***/ "./node_modules/next/node_modules/styled-jsx/dist/style.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1247,9 +1247,9 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 exports.flush = flush;
 
-var _react = __webpack_require__("./node_modules/react/cjs/react.development.js");
+var _react = __webpack_require__("./node_modules/react/index.js");
 
-var _stylesheetRegistry = __webpack_require__("./node_modules/styled-jsx/dist/stylesheet-registry.js");
+var _stylesheetRegistry = __webpack_require__("./node_modules/next/node_modules/styled-jsx/dist/stylesheet-registry.js");
 
 var _stylesheetRegistry2 = _interopRequireDefault(_stylesheetRegistry);
 
@@ -1318,7 +1318,7 @@ function flush() {
 
 /***/ }),
 
-/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js":
+/***/ "./node_modules/next/node_modules/styled-jsx/dist/stylesheet-registry.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1344,7 +1344,7 @@ var _stringHash = __webpack_require__("./node_modules/string-hash/index.js");
 
 var _stringHash2 = _interopRequireDefault(_stringHash);
 
-var _stylesheet = __webpack_require__("./node_modules/styled-jsx/dist/lib/stylesheet.js");
+var _stylesheet = __webpack_require__("./node_modules/next/node_modules/styled-jsx/dist/lib/stylesheet.js");
 
 var _stylesheet2 = _interopRequireDefault(_stylesheet);
 
@@ -1594,10 +1594,35 @@ function invariant(condition, message) {
 
 /***/ }),
 
-/***/ "./node_modules/styled-jsx/server.js":
+/***/ "./node_modules/next/node_modules/styled-jsx/server.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./node_modules/styled-jsx/dist/server.js")
+module.exports = __webpack_require__("./node_modules/next/node_modules/styled-jsx/dist/server.js")
+
+
+/***/ }),
+
+/***/ "./node_modules/string-hash/index.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function hash(str) {
+  var hash = 5381,
+      i    = str.length;
+
+  while(i) {
+    hash = (hash * 33) ^ str.charCodeAt(--i);
+  }
+
+  /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
+   * integers. Since we want the results to be always positive, convert the
+   * signed int to an unsigned by doing an unsigned bitshift. */
+  return hash >>> 0;
+}
+
+module.exports = hash;
 
 
 /***/ }),
@@ -1641,19 +1666,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__("./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_document__ = __webpack_require__("./node_modules/next/document.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_document__);
 
 var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/pages/_document.js";
 
-
-(function () {
-  var enterModule = __webpack_require__("./node_modules/next/node_modules/react-hot-loader/index.js").enterModule;
-
-  enterModule && enterModule(module);
-})();
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -1717,28 +1736,39 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 16
         }
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("script", {
+        dangerouslySetInnerHTML: {
+          __html: "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n          })(window,document,'script','dataLayer','GTM-NRS8R7X');"
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
       })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", {
         className: "custom_class",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 23
         }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("noscript", {
+        dangerouslySetInnerHTML: {
+          __html: "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NRS8R7X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden;\"></iframe>"
+        },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 24
+        }
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 26
         }
       })));
-    }
-  }, {
-    key: "__reactstandin__regenerateByEval",
-    value: function __reactstandin__regenerateByEval(key, code) {
-      this[key] = eval(code);
     }
   }], [{
     key: "getInitialProps",
@@ -1776,22 +1806,6 @@ function (_Document) {
 }(__WEBPACK_IMPORTED_MODULE_2_next_document___default.a);
 
 
-;
-
-(function () {
-  var reactHotLoader = __webpack_require__("./node_modules/next/node_modules/react-hot-loader/index.js").default;
-
-  var leaveModule = __webpack_require__("./node_modules/next/node_modules/react-hot-loader/index.js").leaveModule;
-
-  if (!reactHotLoader) {
-    return;
-  }
-
-  reactHotLoader.register(MyDocument, "MyDocument", "/home/mir/Desktop/Ln-rmls-Next.js/pages/_document.js");
-  leaveModule(module);
-})();
-
-;
     (function (Component, route) {
       if(!Component) return
       if (false) return

@@ -1,50 +1,88 @@
-var express = require('express'),
-    path = require('path'),
-    nodeMailer = require('nodemailer'),
-    bodyParser = require('body-parser');
-    cors = require('cors')
+const express = require("express");
+const path = require("path");
+const nodeMailer = require("nodemailer");
+const bodyParser = require("body-parser");
+const cors = require("cors");
+const next = require("next");
+const dev = process.env.NODE_ENV !== 'production';
+const PORT = process.env.PORT || 3000;
+const app = next({ dev });
+const handle = app.getRequestHandler();
 
-    var app = express();
-    app.use(cors())
-    app.use(bodyParser.urlencoded({extended: true}));
-    app.use(bodyParser.json());
-    var port = 7000;
-    // app.get('/', cors(),function (req, res) {
-    //   res.render('App');
-    // });
-    app.post('/send-email', cors(),function (req, res) {
+app.prepare()
+.then(() => {
+  const server = express();
 
-      let transporter = nodeMailer.createTransport({
-          host: 'smtp.gmail.com',
-          port: 465,
-          secure: true,
-          auth: {
-              user: 'm.agha46@gmail.com',
-              pass: ''
-          }
-      });
-      let mailOptions = {
-          from: "New Request" , // sender address
-          to: 'm.agha46@gmail.com',
-          subject: 'Email from '+req.body.name,
-          html: `Name: ${req.body.name} <br /><br />
+  server.use(bodyParser.json());
+  server.use(cors());
+
+  server.post("/send-email", cors(), function(req, res) {
+
+    let transporter = nodeMailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
+      auth: {
+        type: "OAuth2",
+        user: "m.agha46@gmail.com",
+        clientId:"952376417458-0ahopn8o57jetpv1ujipt0hajtifecmf.apps.googleusercontent.com",
+        clientSecret: "DOpKSe8-hSYyKyY2K5r9Prb7",
+        refreshToken: "1/3_bHPFOjh_XKd2QwttOTbpO2HOZtvGAE5O35LaWPM_4",
+        accessToken:"ya29.Glu7BUt9tlo4eW_ZNKadzKUma-rxJYi1r7FLD6i376CIpnkfenJwBNyjNEhbOxDqhzgubr8m45kSYcYIUiH1O-RKRASmhro-MiPPiLIgkOPhA1z0pRByGSXvJUGL",
+        expires: 3600
+      }
+    });
+
+    let mailOptions = {
+      from: `customer`, // sender address
+      to: "m.agha46@gmail.com",
+      subject: "Request from " + req.body.name,
+      html: `Name: ${req.body.name} <br /><br />
                  Phone number: <a tel:${req.body.phone}>${req.body.phone}</a> <br /><br />
                  Email: ${req.body.email} <br /><br />
                  Pick up postcode: ${req.body.pickUp} <br /><br />
                  Delivery postcode: ${req.body.delivery} <br /><br />
                  Items: ${req.body.items}`
-        };
+    };
+    transporter.sendMail(mailOptions, (error, info) => {
+      if (error) {
 
-       transporter.sendMail(mailOptions, (error, info) => {
-           if (error) {
+        res.status(400);
+        res.json({ error });
+      }
+      console.log("Message sent: ");
+      res.json({ msg: "You email has been sent" });
+    });
+  });
+  const options = {
+    root: __dirname + '/static/',
+    headers: {
+      'Content-Type': 'text/plain;charset=UTF-8',
+    }
+  };
+  server.get('/robots.txt', (req, res) => (
+    res.status(200).sendFile('robots.txt', options)
+  ));
 
-            res.status(400);
-            res.json({ error });
-           }
-              // console.log('Message %s sent: %s', info.messageId, info.response);
-               res.json({ msg: 'You email has been sent' })
-            });
-      });
-          app.listen(port, function(){
-            console.log('Server is running at port: ',port);
-          });
+  const sitemapOptions = {
+    root: __dirname + '/static/',
+    headers: {
+      'Content-Type': 'text/xml;charset=UTF-8',
+    }
+  };
+server.get('/sitemap.xml', (req, res) => (
+  res.status(200).sendFile('sitemap.xml', sitemapOptions)
+));
+
+  server.get("*", (req, res) => {
+    return handle(req, res);
+  });
+  server.listen(PORT, (err) => {
+    if (err) throw err
+    console.log('> Ready on http://localhost:3000')
+  })
+})
+.catch((ex) => {
+  console.error(ex.stack)
+  process.exit(1)
+})

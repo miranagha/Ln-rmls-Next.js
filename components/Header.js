@@ -33,7 +33,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <div className="text-right">
-          <a className="phone" href="tel:07484675664">
+          <a className='phone' href="tel:07484675664">
             <FaPhone />07484675664
           </a>
         </div>
@@ -41,7 +41,7 @@ export default class Example extends React.Component {
             <Link href='/'>
             <a>
             <img
-              src="/static/logo.jpg"
+              src="/static/top-london-removals.jpg"
               alt="Top london removals"
               className='logo'
             />

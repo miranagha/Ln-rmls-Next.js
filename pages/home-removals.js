@@ -82,7 +82,7 @@ const HomeRemovals = () => (
             us today and get a competitive quote for your house move? We are fully
             insured and always treat our clients' items with the utmost respect.
             <br />Get the wheels in motion and talk to our friendly,
-            professional team today <a className="a" href="tel:07484675664"> 07484675664</a>
+            professional team today <a className="a" href="tel:07459896495">07459896495</a>
           </p>
         </Col>
       </article>

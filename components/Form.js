@@ -22,42 +22,39 @@ export default class Form extends React.Component {
   onSubmit = e => {
     e.preventDefault();
 
-    fetch(
-      `${window.location.protocol}//${
-        window.location.hostname
-      }:7000/send-email`,
-      {
-        method: "POST",
-        body: JSON.stringify(this.state),
-        credentials: "same-origin",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json"
-        }
+    fetch(`/send-email`, {
+      method: "POST",
+      body: JSON.stringify(this.state),
+      credentials: "same-origin",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
       }
-    )
-      .then(res => {
+    }
+  )
+  .then(res => {
         this.setState({
-          submitted: true,
-          name: "",
-          phone: "",
-          email: "",
-          pickUp: "",
-          delivery: "",
+            submitted: true,
+            name: "",
+            phone: "",
+            email: "",
+            pickUp: "",
+            delivery: "",
           items: ""
         });
       })
       .catch(err => console.log(err));
-  };
+    };
 
   render() {
     return (
       <form className="contact-form">
         <fieldset>
           <legend>Request a free quote:</legend>
-          <label>name*</label>
+          <label>Name*</label>
           <br />
           <input
+          required
             name="name"
             value={this.state.name}
             onChange={e => this.change(e)}
@@ -79,7 +76,7 @@ export default class Form extends React.Component {
             onChange={e => this.change(e)}
           />
           <br />
-          <label>Pick up Postcode</label>
+          <label>Pick up address (postcode)</label>
           <br />
           <input
             name="pickUp"
@@ -87,7 +84,7 @@ export default class Form extends React.Component {
             onChange={e => this.change(e)}
           />
           <br />
-          <label>delivery Postcode</label>
+          <label>Delivery address (postcode)</label>
           <br />
           <input
             name="delivery"
@@ -95,9 +92,10 @@ export default class Form extends React.Component {
             onChange={e => this.change(e)}
           />
           <br />
-          <label>Items</label>
+          <label>Items (message)</label>
           <br />
           <textarea
+            placeholder='Please tell us what you move'
             cols="27"
             rows="4"
             name="items"
@@ -107,8 +105,8 @@ export default class Form extends React.Component {
           />
           <br />
           {this.state.submitted ? (
-            <p style={{ color: "red" }}>
-              THANK YOU ! We will get back to you within an hour
+            <p className='thankYou'>
+              THANK YOU! We will get back to you within few minutes.
             </p>
           ) : null}
 

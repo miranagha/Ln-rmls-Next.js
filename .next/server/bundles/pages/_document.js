@@ -150,21 +150,37 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 16
         }
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("script", {
+        dangerouslySetInnerHTML: {
+          __html: "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n          })(window,document,'script','dataLayer','GTM-NRS8R7X');"
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        }
       })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", {
         className: "custom_class",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 23
         }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("noscript", {
+        dangerouslySetInnerHTML: {
+          __html: "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NRS8R7X\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden;\"></iframe>"
+        },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 24
+        }
+      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 26
         }
       })));
     }

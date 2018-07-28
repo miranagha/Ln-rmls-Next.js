@@ -33,7 +33,7 @@ const GetAquote = () => (
 
         <p>
           To get a quote for removal services or a man with van in London please
-          complete this form or give us a call <a className="a" href="tel:07484675664"> 07484675664 </a>
+          complete this form or give us a call <a className="a" href="tel:07459896495">07459896495 </a>
           (24/7).
         </p>
         <br />

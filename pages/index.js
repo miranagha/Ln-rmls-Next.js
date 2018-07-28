@@ -4,17 +4,19 @@ import Form from "../components/Form.js";
 import AsideText from "../components/AsideText.js";
 import Section from "../components/Section.js";
 import Page from "../layouts/main";
-
+import "../static/style.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Row, Col } from "reactstrap";
+
 
 const Home = () => (
   <div>
     <Head>
-      <title>London Removals - Top removal services get free quotes 24/7</title>
-      <meta name="description" content="Top London Removals is a specialist home, office and international removals company since 2001. You can request quotes for free 24/7 no obligations to receive the most competitive prices in the industry."/>
-      <meta name="google-site-verification" content="VsHncoHhcXRVYyv61NQAx_3Kz8YVDSY5jB20QTMZ6LE" />
-      <link rel="canonical" href="http://top-london-removals.com/" />
+      <title>Top London Removals - Removals London get free quotes 24/7 service</title>
+      <meta name="description" content='Top London Removals is a specialist Man and Van service since 2001. You can request free quotes 24/7 to receive the most competitive prices'/>
+      <meta name="msvalidate.01" content="6382720E15EBB9DC5C6D09370AE8FA44" />
+      <meta name="google-site-verification" content="5afQhcER_xaFBw6dkC5QlwfYEtXQF0Qg7Cotg7JoLEE" />
+      <link rel="canonical" href="https://top-london-removals.com/" />
     </Head>
     <Page>
       <Row>

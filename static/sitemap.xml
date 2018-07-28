@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://top-london-removals.com/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://top-london-removals.com/man-and-van</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://top-london-removals.com/get-a-quote</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://top-london-removals.com/home-removals</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://top-london-removals.com/office-removals</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://top-london-removals.com/contact</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://top-london-removals.com/international-removals</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://top-london-removals.com/prices</loc>
+  <priority>0.60</priority>
+</url>
+</urlset>

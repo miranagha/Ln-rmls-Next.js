@@ -67,116 +67,10 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/Footer.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_icons_lib_fa__ = __webpack_require__("react-icons/lib/fa");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_icons_lib_fa___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_icons_lib_fa__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/Footer.js";
-
-
-
-var Footer = function Footer() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("footer", {
-    className: "container text-center col-xs-12",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
-    width: "100%",
-    color: "black",
-    height: "1px",
-    "background-color": "rgb(88, 82, 82)",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    rel: "noopener noreferrer",
-    className: "social-media",
-    href: "#",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_icons_lib_fa__["FaFacebook"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "social-media",
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_icons_lib_fa__["FaGoogle"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "social-media",
-    href: "#",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_icons_lib_fa__["FaInstagram"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "social-media",
-    href: "#",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_icons_lib_fa__["FaTwitter"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "text-center",
-    style: {
-      color: '#808080'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
-  }, "Copyright @ 2018 Top London Removal | all rights reserved"));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Footer);
-
-/***/ }),
 
 /***/ "./components/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -282,7 +176,7 @@ function (_React$Component) {
           lineNumber: 42
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-        src: "/static/logo.jpg",
+        src: "/static/top-london-removals.jpg",
         alt: "Top london removals",
         className: "logo",
         __source: {
@@ -478,249 +372,113 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./layouts/main.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header_js__ = __webpack_require__("./components/Header.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Footer_js__ = __webpack_require__("./components/Footer.js");
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/layouts/main.js";
-
-
-
-/* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
-  var children = _ref.children;
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Header_js__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }), children, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Footer_js__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }));
-});
-
-/***/ }),
-
-/***/ "./pages/man-and-van.js":
+/***/ "./pages/_error.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Error; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__layouts_main__ = __webpack_require__("./layouts/main.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_reactstrap__ = __webpack_require__("reactstrap");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_reactstrap__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/pages/man-and-van.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header__ = __webpack_require__("./components/Header.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
+var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/pages/_error.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 
 
 
 
+var Error =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Error, _React$Component);
 
-var ManAndVan = function ManAndVan() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_head___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, "London Man And Van"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
-    name: "description",
-    content: "Do you want man with a van now? just give us a call we will be at your place in less than half an hour, and you do not need to touch anything leave the hard work for us",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__layouts_main__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_reactstrap__["Col"], {
-    className: "main-container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_reactstrap__["Col"], {
-    sm: "12",
-    md: {
-      size: 8,
-      offset: 2
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    }
-  }, "London man and van"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  }, "Look for man and van services in London? we have been taking the fuss, stress and strain out of removals for over a decade-and-a-half and always go the extra mile to make your move as smooth as possible. We are trusted to oversee all kinds of moves, including everything from small flat removals to large office relocations. Our fleet is diverse enough to cover all moves and includes transit vans, large removal vans and everything in between. We treat all your items with the care and respect that they deserve and use our vast experience and resources to ensure your goods get from A to B in style in the same condition as they left. Get in touch today if you require a man and van service in London."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "text-right",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
-    href: "/get-a-quote",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    className: "btn btn-lg btn-removals",
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    }
-  }, "Get a quote now"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_reactstrap__["Col"], {
-    sm: "12",
-    md: {
-      size: 8,
-      offset: 2
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    }
-  }, "A 24-hour Man and Van Service"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    }
-  }, "Available 24 hours a day, seven days a week, we are waiting to hear from you if you need help with deliveries, removals, transportations and relocations. The entire length and breadth of the capital are covered by our team, and we have excellent knowledge of the streets and districts of London. though we also regularly head to international cities like Berlin, Paris, Brussels and Amsterdam."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    }
-  }, "Removals and deliveries"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    }
-  }, "There are many great reasons for choosing London Removals when you need a man and van service you can depend on. We are fully-insured, employ professional, friendly and uniformed staff and offer clean vans of various sizes with a host of useful facilities. We are one of the most highly-rated removal services in the capital and can even help with packing, unpacking and labelling boxes to speed up the process if needed. Whether you need to move locally, nationally or internationally, we can assist you, and what\u2019s more is that we offer some of the best prices in London, without ever making compromises on quality.", " "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    }
-  }, "Tailored to your needs"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    }
-  }, "We know that no two clients\u2019 needs are ever quite the same, which is why so we take a host of factors into account when calculating the cost of your move. These factors include street size, whether you live in a house or flat, where you are moving to and the size of your loads to give just a few examples. Our man and van service is used for a number of reasons, including relocations, courier services and more. The services we offer have been fine-tuned to cater forto our customers perfectly, and we can help you even if you need us during unsociable hours, evenings, weekends and public holidays. We are noted for our flexibility and happy to work around your schedule.", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    }
-  }), "Getting a quote from man and van is easy \u2013 just", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
-    href: "/get-a-quote",
-    passHref: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "a",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    }
-  }, " complete the form ")), "or call the number above and we will be happy to give you a price based on your specific needs."))));
-};
+  function Error() {
+    _classCallCheck(this, Error);
 
-/* harmony default export */ __webpack_exports__["default"] = (ManAndVan);
+    return _possibleConstructorReturn(this, (Error.__proto__ || Object.getPrototypeOf(Error)).apply(this, arguments));
+  }
+
+  _createClass(Error, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Header__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        }
+      }, this.props.statusCode ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "text-center",
+        style: {
+          paddingTop: '88px'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, " ", this.props.statusCode, " | This page could not be found. Return to ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
+        href: "/",
+        passHref: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        }
+      }, "HOME")), " ") : "An error occurred on client"));
+    }
+  }], [{
+    key: "getInitialProps",
+    value: function getInitialProps(_ref) {
+      var res = _ref.res,
+          err = _ref.err;
+      var statusCode = res ? res.statusCode : err ? err.statusCode : null;
+      return {
+        statusCode: statusCode
+      };
+    }
+  }]);
+
+  return Error;
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
+
+
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/man-and-van.js");
+module.exports = __webpack_require__("./pages/_error.js");
 
-
-/***/ }),
-
-/***/ "next/head":
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
 
 /***/ }),
 
@@ -735,13 +493,6 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-icons/lib/fa":
-/***/ (function(module, exports) {
-
-module.exports = require("react-icons/lib/fa");
 
 /***/ }),
 
@@ -760,4 +511,4 @@ module.exports = require("reactstrap");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=man-and-van.js.map
+//# sourceMappingURL=_error.js.map

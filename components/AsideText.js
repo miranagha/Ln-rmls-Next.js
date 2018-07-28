@@ -9,7 +9,7 @@ const AsideText = () => (
 		hours. If you’re looking for a team that can schedule your move around your
 		specific requirements, we are here for you. </p>
 
-		<h2 className='h2'>Other removalists</h2>
+		<h3 className='h3'>Other top removalists</h3>
 		<p>Many <a className='a' href="https://www.timeout.com/london/things-to-do/find-a-removal-firm" rel="nofollow" target="_blank">removals firms </a>
 			operating in London and each of them provides different kinds of removals services.
 		<a className='a' href="http://www.the-london-removals.co.uk/" rel="nofollow" target="_blank"> the-london-removals </a>

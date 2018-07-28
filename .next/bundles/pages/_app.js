@@ -1,7 +1,6 @@
 module.exports =
-
-        __NEXT_REGISTER_PAGE('/_app', function() {
-          var comp = 
+__NEXT_REGISTER_PAGE('/_app', function() {
+          var comp =
       webpackJsonp([3],{
 
 /***/ "./node_modules/@babel/runtime/helpers/extends.js":
@@ -73,7 +72,7 @@ var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./
 
 var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
 
-var _react = _interopRequireWildcard(__webpack_require__("./node_modules/react/cjs/react.development.js"));
+var _react = _interopRequireWildcard(__webpack_require__("./node_modules/react/index.js"));
 
 var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/prop-types/index.js"));
 
@@ -102,23 +101,13 @@ function (_Component) {
         router: (0, _router.makePublicRouterInstance)(this.props.router),
         _containerProps: (0, _objectSpread2.default)({}, this.props)
       };
-    }
+    } // Kept here for backwards compatibility.
+    // When someone ended App they could call `super.componentDidCatch`. This is now deprecated.
+
   }, {
     key: "componentDidCatch",
-    value: function componentDidCatch(err, info) {
-      // To provide clearer stacktraces in error-debug.js in development
-      // To provide clearer stacktraces in app.js in production
-      err.info = info;
-
-      if (false) {
-        // In production we render _error.js
-        window.next.renderError({
-          err: err
-        });
-      } else {
-        // In development we throw the error up to AppContainer from react-hot-loader
-        throw err;
-      }
+    value: function componentDidCatch(err) {
+      throw err;
     }
   }, {
     key: "render",
@@ -252,20 +241,24 @@ var warnUrl = (0, _utils.execOnce)(function () {
 });
 
 function createUrl(router) {
+  // This is to make sure we don't references the router object at call time
+  var pathname = router.pathname,
+      asPath = router.asPath,
+      query = router.query;
   return {
     get query() {
       warnUrl();
-      return router.query;
+      return query;
     },
 
     get pathname() {
       warnUrl();
-      return router.pathname;
+      return pathname;
     },
 
     get asPath() {
       warnUrl();
-      return router.asPath;
+      return asPath;
     },
 
     back: function back() {
@@ -305,7 +298,7 @@ module.exports = __webpack_require__("./node_modules/next/app.js")
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./node_modules/next/dist/pages/_app.js");
@@ -313,7 +306,7 @@ module.exports = __webpack_require__("./node_modules/next/dist/pages/_app.js");
 
 /***/ })
 
-},[2])
+},[3])
           return { page: comp.default }
         })
       ;
