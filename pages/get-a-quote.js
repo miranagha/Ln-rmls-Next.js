@@ -7,7 +7,7 @@ import { Container, Row, Col } from "reactstrap";
 const GetAquote = () => (
   <div>
     <Head>
-      <title>Get a quote</title>
+      <title>Get a free removals quote</title>
       <meta name="description" content="Speak with our expert team to get the most competative quote in London without spending a penny. Request a quote now"/>
     </Head>
     <Page>

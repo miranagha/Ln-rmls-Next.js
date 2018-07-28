@@ -33,8 +33,8 @@ export default class Example extends React.Component {
     return (
       <div>
         <div className="text-right">
-          <a className='phone' href="tel:07484675664">
-            <FaPhone />07484675664
+          <a className='phone' href="tel:07459896495">
+            <FaPhone />07459896495
           </a>
         </div>
         <Navbar light expand="md">

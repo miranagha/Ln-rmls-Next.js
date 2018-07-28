@@ -623,7 +623,7 @@ function (_React$Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "phone",
-        href: "tel:07484675664",
+        href: "tel:07459896495",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36
@@ -633,7 +633,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 37
         }
-      }), "07484675664")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["Navbar"], {
+      }), "07459896495")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["Navbar"], {
         light: true,
         expand: "md",
         __source: {
