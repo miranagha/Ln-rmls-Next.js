@@ -5,6 +5,7 @@ body {
   padding-top: 10px;
   font-size: 17px;
 }
+
 .phone:hover {
   color: #f90;
 }
@@ -23,11 +24,9 @@ p {
   text-align: justify;
   text-justify: inter-word;
 }
-
 a.a {
   color: #f90;
 }
-
 .navbar-light .navbar-nav .nav-link {
   font-weight: bold;
   font-size: 15px;
@@ -72,6 +71,22 @@ p li {
   background: white;
   color: #f90;
   font-weight: bold;
+}
+.btn-tips {
+  background-color: #f90;
+  color: white;
+  font-weight: bold;
+}
+.btn-tips:hover {
+  color: black;
+}
+.next {
+  background-color: #f90;
+  color: white;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
 }
 .logo {
   margin-top: -33px;
@@ -139,6 +154,9 @@ button[type="submit"]:hover {
     width: 170px;
     margin-top: 0px;
 
+  }
+  .btn-tips{
+    width: 100%;
   }
 }/*!
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
@@ -4380,7 +4398,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #f90;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {

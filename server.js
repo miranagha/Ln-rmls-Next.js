@@ -34,7 +34,7 @@ app.prepare()
     });
 
     let mailOptions = {
-      from: `customer`, // sender address
+      from: req.body.email, // sender address
       to: "m.agha46@gmail.com",
       subject: "Request from " + req.body.name,
       html: `Name: ${req.body.name} <br /><br />

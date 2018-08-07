@@ -12,7 +12,7 @@ webpackHotUpdate(1,{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reactstrap__ = __webpack_require__("./node_modules/reactstrap/dist/reactstrap.es.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone__ = __webpack_require__("./node_modules/react-icons/lib/fa/phone.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/Header.js";
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/Header.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -74,7 +74,7 @@ function (_React$Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "phone",
-        href: "tel:07484675664",
+        href: "tel:07459896495",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36
@@ -84,7 +84,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 37
         }
-      }), "07484675664")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["i" /* Navbar */], {
+      }), "07459896495")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["k" /* Navbar */], {
         light: true,
         expand: "md",
         __source: {
@@ -110,7 +110,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 43
         }
-      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavbarToggler */], {
+      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["l" /* NavbarToggler */], {
         onClick: this.toggle,
         __source: {
           fileName: _jsxFileName,
@@ -123,14 +123,14 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 51
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["g" /* Nav */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["i" /* Nav */], {
         className: "ml-auto navi",
         navbar: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 52
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["h" /* NavItem */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
@@ -148,7 +148,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 54
         }
-      }, "HOME"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["l" /* UncontrolledDropdown */], {
+      }, "HOME"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["n" /* UncontrolledDropdown */], {
         nav: true,
         inNavbar: true,
         __source: {
@@ -234,7 +234,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 70
         }
-      }, "INTERNATIONAL REMOVALS"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["h" /* NavItem */], {
+      }, "INTERNATIONAL REMOVALS"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 74
@@ -252,7 +252,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 75
         }
-      }, "MAN AND VAN"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["h" /* NavItem */], {
+      }, "MAN AND VAN"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 77
@@ -270,7 +270,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 78
         }
-      }, "PRICES"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["h" /* NavItem */], {
+      }, "PRICES"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
@@ -344,13 +344,13 @@ module.exports = exports['default'];
 "use strict";
 /* unused harmony export Alert */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return Container; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return Row; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return Row; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Col; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return Navbar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return Navbar; });
 /* unused harmony export NavbarBrand */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return NavbarToggler; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return Nav; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return NavItem; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return NavbarToggler; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return Nav; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return NavItem; });
 /* unused harmony export NavDropdown */
 /* unused harmony export NavLink */
 /* unused harmony export Breadcrumb */
@@ -391,9 +391,9 @@ module.exports = exports['default'];
 /* unused harmony export PopoverTitle */
 /* unused harmony export PopoverHeader */
 /* unused harmony export Progress */
-/* unused harmony export Modal */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return Modal; });
 /* unused harmony export ModalHeader */
-/* unused harmony export ModalBody */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return ModalBody; });
 /* unused harmony export ModalFooter */
 /* unused harmony export PopperContent */
 /* unused harmony export PopperTargetHelper */
@@ -424,7 +424,7 @@ module.exports = exports['default'];
 /* unused harmony export ListGroupItemHeading */
 /* unused harmony export UncontrolledAlert */
 /* unused harmony export UncontrolledButtonDropdown */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return UncontrolledDropdown; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return UncontrolledDropdown; });
 /* unused harmony export UncontrolledNavDropdown */
 /* unused harmony export UncontrolledTooltip */
 /* unused harmony export Util */
@@ -6076,4 +6076,4 @@ var UncontrolledTooltip = function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=1.f9e2566426c82047bf67.hot-update.js.map
+//# sourceMappingURL=1.bcf3452434ccdf39bf89.hot-update.js.map

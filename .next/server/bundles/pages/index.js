@@ -78,7 +78,7 @@ module.exports =
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/AsideText.js";
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/AsideText.js";
 
 
 var AsideText = function AsideText() {
@@ -162,7 +162,7 @@ var AsideText = function AsideText() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_icons_lib_fa__ = __webpack_require__("react-icons/lib/fa");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_icons_lib_fa___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_fa__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/Footer.js";
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/Footer.js";
 
 
 
@@ -266,7 +266,7 @@ var Footer = function Footer() {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Form; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/Form.js";
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/Form.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -561,7 +561,7 @@ function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_reactstrap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone__ = __webpack_require__("react-icons/lib/fa/phone");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/Header.js";
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/Header.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -856,248 +856,771 @@ function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__ = __webpack_require__("react-icons/lib/md");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_reactstrap__ = __webpack_require__("reactstrap");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_reactstrap__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/components/Section.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modals_Modal1_js__ = __webpack_require__("./components/modals/Modal1.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modals_Modal2_js__ = __webpack_require__("./components/modals/Modal2.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modals_Modal3_js__ = __webpack_require__("./components/modals/Modal3.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__modals_Modal4_js__ = __webpack_require__("./components/modals/Modal4.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__modals_Modal5_js__ = __webpack_require__("./components/modals/Modal5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_icons_lib_md__ = __webpack_require__("react-icons/lib/md");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_icons_lib_md___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_icons_lib_md__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_reactstrap__ = __webpack_require__("reactstrap");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_reactstrap__);
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/Section.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 
 
 
 
-var Section = function Section() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
+
+
+
+
+
+
+var Section =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Section, _React$Component);
+
+  function Section(props) {
+    var _this;
+
+    _classCallCheck(this, Section);
+
+    _this = _possibleConstructorReturn(this, (Section.__proto__ || Object.getPrototypeOf(Section)).call(this, props));
+    Object.defineProperty(_assertThisInitialized(_this), "nextActivModal", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        _this.setState(function (prevState) {
+          return {
+            activModal: prevState.activModal + 1
+          };
+        });
+      }
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "previousActivModal", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        _this.setState(function (prevState) {
+          return {
+            activModal: prevState.activModal - 1
+          };
+        });
+      }
+    });
+    _this.state = {
+      modal: false,
+      nestedModal: false,
+      closeAll: false,
+      activModal: 0
+    };
+    _this.toggle = _this.toggle.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(Section, [{
+    key: "toggle",
+    value: function toggle() {
+      this.setState({
+        modal: !this.state.modal,
+        activModal: 0
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var modals = [__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__modals_Modal1_js__["a" /* default */], {
+        nextActivModal: this.nextActivModal,
+        toggle: this.toggle,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__modals_Modal2_js__["a" /* default */], {
+        nextActivModal: this.nextActivModal,
+        toggle: this.toggle,
+        previousActivModal: this.previousActivModal,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__modals_Modal3_js__["a" /* default */], {
+        nextActivModal: this.nextActivModal,
+        toggle: this.toggle,
+        previousActivModal: this.previousActivModal,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__modals_Modal4_js__["a" /* default */], {
+        nextActivModal: this.nextActivModal,
+        toggle: this.toggle,
+        previousActivModal: this.previousActivModal,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__modals_Modal5_js__["a" /* default */], {
+        toggle: this.toggle,
+        previousActivModal: this.previousActivModal,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        }
+      })];
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "main-container col-lg-12",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+        className: "text-center",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        }
+      }, "Top London Removals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "text-eft",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        }
+      }, "In London on moving day without a plan? you need a man with a van service. At Top London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you\u2019re relocating overseas. Our company has a diverse client base and can assist you whether you\u2019re moving a single item or are a large corporation wishing to relocate."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "text-center h2 types",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60
+        }
+      }, "Types of ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+        className: "typesofmoves",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60
+        }
+      }, "Moves")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_reactstrap__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_reactstrap__["Row"], {
+        className: "text-center",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_reactstrap__["Col"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "material-icon-lg material-icon",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_react_icons_lib_md__["MdHome"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "/home-removals",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+        className: "btn btn-removals",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        }
+      }, "House"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_reactstrap__["Col"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "material-icon-lg material-icon",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_react_icons_lib_md__["MdLocationCity"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "/office-removals",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+        className: "btn btn-removals",
+        type: "button",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        }
+      }, "Office"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_reactstrap__["Col"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        className: "material-icon-lg material-icon",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_react_icons_lib_md__["MdPublic"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72
+        }
+      })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "/international-removals",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+        className: "btn btn-removals",
+        type: "button",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        }
+      }, "International"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "text-center",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+        className: "btn btn-lg btn-tips",
+        onClick: this.toggle,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        }
+      }, this.props.buttonLabel, "TOP 5 MOVING TIPS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_reactstrap__["Modal"], {
+        isOpen: this.state.modal,
+        toggle: this.toggle,
+        className: this.props.className,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_reactstrap__["ModalBody"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85
+        }
+      }, modals[this.state.activModal])))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        }
+      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("article", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "h2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        }
+      }, "Top removals expert in London"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        }
+      }, "Having been in the business since way back in 2001, we can be counted on to deliver the exceptional removal services that you require. We can also help you with packing, loading, unpacking and waste disposal, and can even provide the assistance you need when you need to assemble and disassemble furniture. We are fully-insured and treat your items with the utmost respect, providing a quality guarantee to each and every customer. Our specialised services are designed to take the stress out of relocation, and we have worked on a huge range of moves over the years."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "h2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        }
+      }, "Reliable removals company"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98
+        }
+      }, "All our uniformed loaders and drivers are fully-trained and competent enough to carry out the work safely and professionally. We take pride in our quality assurance procedures and constantly seek out feedback from our clients to ensure we remain at the top. We understand better than anybody how important it is to need trustworthy and efficient partners when you move, and this is exactly the guarantee we provide to every customer. Not only are we fully insured, meaning we are fully responsible for all your items while they are being transported by us and a quality guarantee is provided to every customer, but we pride ourselves on being sensitive and adaptable."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "h2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        }
+      }, "London office removals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102
+        }
+      }, "If you\u2019re a business, chances are you have big concerns about keeping downtime to a minimum and making the swiftest move you possibly can. If this is the case, let us step in. We can carefully pack and label all items on your behalf, remove and reassemble shelving systems to support your accounts team and carry out moves during evenings and weekends to diminish lost hours and revenue. Whether you\u2019re moving within the same complex or to another part of the country, we can help. Our business clients have included everyone from small start-ups to large, long-established organisations."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+        className: "h2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        }
+      }, "Storage solutions available"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        }
+      }, "You can rely on us to use our vast experience to make the experience as smooth as possible. In fact, you don\u2019t need to lift as much as a finger to use our services. We also offer short and long-term storage solutions, which means you are fully covered if you are not moving into your new home or business premises on the same day you leave your old base. We offer global moving services and can transport your goods to anywhere in the world."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109
+        }
+      }, "Why not get in touch to ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+        href: "/get-a-quote",
+        passHref: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        className: "a",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110
+        }
+      }, " get a quote ")), "today if you\u2019ve been looking for the best removals companies in London?")));
+    }
+  }]);
+
+  return Section;
+}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["a"] = (Section);
+
+/***/ }),
+
+/***/ "./components/modals/Modal1.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/modals/Modal1.js";
+
+
+var Modal1 = function Modal1(_ref) {
+  var nextActivModal = _ref.nextActivModal,
+      toggle = _ref.toggle;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    }
+  }, "1. Make sure the company is fully insured"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
+    width: "100%",
+    color: "black",
+    height: "1px",
+    "background-color": "rgb(88, 82, 82)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, "During the relocation process, it is crucial that the moving company take full care and responsibility for what happened to all your furniture and personal belongings. This means if any of your items are damaged in transit, will be covered by the company."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn",
+    onClick: toggle,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "main-container col-lg-12",
+  }, "Close"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn next",
+    onClick: nextActivModal,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+  }, "Next \xBB")));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Modal1);
+
+/***/ }),
+
+/***/ "./components/modals/Modal2.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reactstrap__ = __webpack_require__("reactstrap");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_reactstrap__);
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/modals/Modal2.js";
+
+
+
+var Modal2 = function Modal2(_ref) {
+  var nextActivModal = _ref.nextActivModal,
+      previousActivModal = _ref.previousActivModal,
+      toggle = _ref.toggle;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, "2. Read their Google reviews "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
+    width: "100%",
+    color: "black",
+    height: "1px",
+    "background-color": "rgb(88, 82, 82)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, " Finding out what their customers say is one of the best ways to gauge how good the company is. You can check their Google My Business page(s) and look at some of their good and bad reviews. It is really important to check how the company responded to customer reviews, especially when they're bad."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Row"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Col"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    className: "text-center",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn previous",
+    onClick: previousActivModal,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     }
-  }, "Top London Removals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "text-eft",
+  }, "\xAB previous")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Col"], {
+    className: "text-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     }
-  }, "In London on moving day without a plan? you need a man with a van service. At Top London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you\u2019re relocating overseas. Our company has a diverse client base and can assist you whether you\u2019re moving a single item or are a large corporation wishing to relocate."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn",
+    onClick: toggle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, "Close"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn next",
+    onClick: nextActivModal,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "text-center h2 types",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
-  }, "Types of ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "typesofmoves",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
-  }, "Moves")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Container"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Row"], {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Col"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "material-icon-lg material-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__["MdHome"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "/home-removals",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    className: "btn btn-removals",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    }
-  }, "House"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Col"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "material-icon-lg material-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__["MdLocationCity"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "/office-removals",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    className: "btn btn-removals",
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    }
-  }, "Office"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_reactstrap__["Col"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "material-icon-lg material-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_icons_lib_md__["MdPublic"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "/international-removals",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    className: "btn btn-removals",
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    }
-  }, "International"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    }
-  }, "Not sure? call us now ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "a",
-    href: "tel:07459896495",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    }
-  }, "07459896495")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("article", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    }
-  }, "Top removals expert in London"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    }
-  }, "Having been in the business since way back in 2001, we can be counted on to deliver the exceptional removal services that you require. We can also help you with packing, loading, unpacking and waste disposal, and can even provide the assistance you need when you need to assemble and disassemble furniture. We are fully-insured and treat your items with the utmost respect, providing a quality guarantee to each and every customer. Our specialised services are designed to take the stress out of relocation, and we have worked on a huge range of moves over the years."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    }
-  }, "Reliable removals company"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    }
-  }, "All our uniformed loaders and drivers are fully-trained and competent enough to carry out the work safely and professionally. We take pride in our quality assurance procedures and constantly seek out feedback from our clients to ensure we remain at the top. We understand better than anybody how important it is to need trustworthy and efficient partners when you move, and this is exactly the guarantee we provide to every customer. Not only are we fully insured, meaning we are fully responsible for all your items while they are being transported by us and a quality guarantee is provided to every customer, but we pride ourselves on being sensitive and adaptable."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    }
-  }, "London office removals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    }
-  }, "If you\u2019re a business, chances are you have big concerns about keeping downtime to a minimum and making the swiftest move you possibly can. If this is the case, let us step in. We can carefully pack and label all items on your behalf, remove and reassemble shelving systems to support your accounts team and carry out moves during evenings and weekends to diminish lost hours and revenue. Whether you\u2019re moving within the same complex or to another part of the country, we can help. Our business clients have included everyone from small start-ups to large, long-established organisations."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "h2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    }
-  }, "Storage solutions available"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    }
-  }, "You can rely on us to use our vast experience to make the experience as smooth as possible. In fact, you don\u2019t need to lift as much as a finger to use our services. We also offer short and long-term storage solutions, which means you are fully covered if you are not moving into your new home or business premises on the same day you leave your old base. We offer global moving services and can transport your goods to anywhere in the world."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    }
-  }, "Why not get in touch to ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/get-a-quote",
-    passHref: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "a",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    }
-  }, " get a quote ")), "today if you\u2019ve been looking for the best removals companies in London?")));
+  }, "Next \xBB"))));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Section);
+/* harmony default export */ __webpack_exports__["a"] = (Modal2);
+
+/***/ }),
+
+/***/ "./components/modals/Modal3.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reactstrap__ = __webpack_require__("reactstrap");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_reactstrap__);
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/modals/Modal3.js";
+
+
+
+var Modal3 = function Modal3(_ref) {
+  var nextActivModal = _ref.nextActivModal,
+      previousActivModal = _ref.previousActivModal,
+      toggle = _ref.toggle;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, "3. Check for specialized moving equipment"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
+    width: "100%",
+    color: "black",
+    height: "1px",
+    "background-color": "rgb(88, 82, 82)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, " Some items require extra care to protect them from getting scratched or damaged such as piano, antiques, or expensive furniture. During the moving process, they must have specialised equipment to make sure that the transportation is safe includes lifts, trolley, carrying straps or special blankets."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Row"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Col"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn previous",
+    onClick: previousActivModal,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }, "\xAB previous")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Col"], {
+    className: "text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn",
+    onClick: toggle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, "Close"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn next",
+    onClick: nextActivModal,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }, "Next \xBB"))));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Modal3);
+
+/***/ }),
+
+/***/ "./components/modals/Modal4.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reactstrap__ = __webpack_require__("reactstrap");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_reactstrap__);
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/modals/Modal4.js";
+
+
+
+var Modal4 = function Modal4(_ref) {
+  var nextActivModal = _ref.nextActivModal,
+      previousActivModal = _ref.previousActivModal,
+      toggle = _ref.toggle;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, "4. Ask if the price is final"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
+    width: "100%",
+    color: "black",
+    height: "1px",
+    "background-color": "rgb(88, 82, 82)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, "Some of the moving companies provide you a cheap quote when you book with them, but actually, there are many additional hidden costs like stair charges, VAT, etc. That\u2019s why it is always the best to check with the removal company and make sure they provided you all the moving charges before you confirm your booking."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Row"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Col"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn previous",
+    onClick: previousActivModal,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }, "\xAB previous")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["Col"], {
+    className: "text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn",
+    onClick: toggle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, "Close"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn next",
+    onClick: nextActivModal,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }, "Next \xBB"))));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Modal4);
+
+/***/ }),
+
+/***/ "./components/modals/Modal5.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/modals/Modal5.js";
+
+
+var Modal5 = function Modal5(_ref) {
+  var previousActivModal = _ref.previousActivModal,
+      toggle = _ref.toggle;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, "5. the cheapest company is not necessarily the best!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
+    width: "100%",
+    color: "black",
+    height: "1px",
+    "background-color": "rgb(88, 82, 82)",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  }, "Prices should not be the first factor to choose who you are moving with, look at the other 4 points we mentioned before and check what service the company offers to you because it is your prized personal belongs and possessions that they relocate and you need to be with a company that is reliable."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn previous",
+    onClick: previousActivModal,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, "\xAB previous"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    className: "btn",
+    onClick: toggle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }, "Close"));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Modal5);
 
 /***/ }),
 
@@ -1109,7 +1632,7 @@ var Section = function Section() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header_js__ = __webpack_require__("./components/Header.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Footer_js__ = __webpack_require__("./components/Footer.js");
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/layouts/main.js";
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/layouts/main.js";
 
 
 
@@ -1161,7 +1684,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_bootstrap_dist_css_bootstrap_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_bootstrap_dist_css_bootstrap_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_reactstrap__ = __webpack_require__("reactstrap");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_reactstrap__);
-var _jsxFileName = "/home/mir/Desktop/Ln-rmls-Next.js/pages/index.js";
+var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/pages/index.js";
 
 
 
@@ -1188,9 +1711,9 @@ var Home = function Home() {
       fileName: _jsxFileName,
       lineNumber: 15
     }
-  }, "Top London Removals - Removals London get free quotes 24/7 service"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
+  }, "Top London Removals - FREE Quotes and Tips 24/7 Services"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
     name: "description",
-    content: "Top London Removals is a specialist Man and Van service since 2001. You can request free quotes 24/7 to receive the most competitive prices",
+    content: "Top London Removals is a specialist Man and Van service since 2001. Request free quotes 24/7 to get the most competitive prices with NO hidden fees",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
