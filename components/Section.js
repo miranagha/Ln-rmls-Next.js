@@ -42,19 +42,19 @@ class Section extends React.Component {
 
     render() {
         const modals = [
-        <Modal1 nextActivModal={this.nextActivModal} toggle={this.toggle} />, 
-        <Modal2 nextActivModal={this.nextActivModal} toggle={this.toggle} previousActivModal={this.previousActivModal} />,
-        <Modal3 nextActivModal={this.nextActivModal} toggle={this.toggle} previousActivModal={this.previousActivModal} />,
-        <Modal4 nextActivModal={this.nextActivModal} toggle={this.toggle} previousActivModal={this.previousActivModal} />,
-        <Modal5 toggle={this.toggle} previousActivModal={this.previousActivModal} />
-    ]
+            <Modal1 nextActivModal={this.nextActivModal} toggle={this.toggle} />,
+            <Modal2 nextActivModal={this.nextActivModal} toggle={this.toggle} previousActivModal={this.previousActivModal} />,
+            <Modal3 nextActivModal={this.nextActivModal} toggle={this.toggle} previousActivModal={this.previousActivModal} />,
+            <Modal4 nextActivModal={this.nextActivModal} toggle={this.toggle} previousActivModal={this.previousActivModal} />,
+            <Modal5 toggle={this.toggle} previousActivModal={this.previousActivModal} />
+        ]
         return (
             <section>
                 <div className="main-container col-lg-12">
                     <br />
                     <h1 className='text-center' >Top London Removals</h1>
                     <p className="text-eft">
-                        In London on moving day without a plan? you need a man with a van service. At Top London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you’re relocating overseas. Our company has a diverse client base and can assist you whether you’re moving a single item or are a large corporation wishing to relocate.
+                        In London on moving day without a plan? You need a man with a van service. At Top London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London or further afield, and can even come to your assistance if you’re relocating overseas. Our company has a diverse client base and can assist you whether you’re moving a single item or are a large corporation wishing to relocate.
             </p>
                     <div>
                         <h2 className='text-center h2 types'>Types of <span className='typesofmoves'>Moves</span></h2>
@@ -80,7 +80,6 @@ class Section extends React.Component {
                         <div className='text-center'>
                             <button className="btn btn-lg btn-tips" onClick={this.toggle}>{this.props.buttonLabel}TOP 5 MOVING TIPS</button>
                             <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-
                                 <ModalBody>
                                     <div>{modals[this.state.activModal]}</div>
                                 </ModalBody>
@@ -90,6 +89,7 @@ class Section extends React.Component {
                     </div>
                 </div>
                 <article>
+                    <br />
                     <h2 className='h2'>Top removals expert in London</h2>
                     <p>
                         Having been in the business since way back in 2001, we can be counted on to deliver the exceptional removal services that you require. We can also help you with packing, loading, unpacking and waste disposal, and can even provide the assistance you need when you need to assemble and disassemble furniture. We are fully-insured and treat your items with the utmost respect, providing a quality guarantee to each and every customer. Our specialised services are designed to take the stress out of relocation, and we have worked on a huge range of moves over the years.

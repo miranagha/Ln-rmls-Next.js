@@ -8,6 +8,7 @@ const dev = process.env.NODE_ENV !== 'production';
 const PORT = process.env.PORT || 3000;
 const app = next({ dev });
 const handle = app.getRequestHandler();
+require('dotenv').config();
 
 app.prepare()
 .then(() => {
@@ -19,30 +20,24 @@ app.prepare()
   server.post("/send-email", cors(), function(req, res) {
 
     let transporter = nodeMailer.createTransport({
-      host: "smtp.gmail.com",
+      host: 'smtp.gmail.com',
       port: 465,
       secure: true,
       auth: {
-        type: "OAuth2",
-        user: "m.agha46@gmail.com",
-        clientId:"952376417458-0ahopn8o57jetpv1ujipt0hajtifecmf.apps.googleusercontent.com",
-        clientSecret: "DOpKSe8-hSYyKyY2K5r9Prb7",
-        refreshToken: "1/3_bHPFOjh_XKd2QwttOTbpO2HOZtvGAE5O35LaWPM_4",
-        accessToken:"ya29.Glu7BUt9tlo4eW_ZNKadzKUma-rxJYi1r7FLD6i376CIpnkfenJwBNyjNEhbOxDqhzgubr8m45kSYcYIUiH1O-RKRASmhro-MiPPiLIgkOPhA1z0pRByGSXvJUGL",
-        expires: 3600
+          user: process.env.USER_GMAIL,
+          pass: process.env.PASS
       }
-    });
-
+  });
     let mailOptions = {
       from: req.body.email, // sender address
-      to: "m.agha46@gmail.com",
-      subject: "Request from " + req.body.name,
+      to: "hi@top-london-removals.com",
+      subject: "Quote request from " + req.body.name,
       html: `Name: ${req.body.name} <br /><br />
-                 Phone number: <a tel:${req.body.phone}>${req.body.phone}</a> <br /><br />
-                 Email: ${req.body.email} <br /><br />
-                 Pick up postcode: ${req.body.pickUp} <br /><br />
-                 Delivery postcode: ${req.body.delivery} <br /><br />
-                 Items: ${req.body.items}`
+             Phone number: <a tel:${req.body.phone}>${req.body.phone}</a> <br /><br />
+             Email: ${req.body.email} <br /><br />
+             Pick up postcode: ${req.body.pickUp} <br /><br />
+             Delivery postcode: ${req.body.delivery} <br /><br />
+             Items: ${req.body.items}`
     };
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
@@ -79,7 +74,7 @@ server.get('/sitemap.xml', (req, res) => (
   });
   server.listen(PORT, (err) => {
     if (err) throw err
-    console.log('> Ready on http://localhost:3000')
+    console.log('> It is Ready on http://localhost:3000')
   })
 })
 .catch((ex) => {

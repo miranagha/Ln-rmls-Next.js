@@ -943,7 +943,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 56
         }
-      }, "In London on moving day without a plan? you need a man with a van service. At Top London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London are further afield, and can even come to your assistance if you\u2019re relocating overseas. Our company has a diverse client base and can assist you whether you\u2019re moving a single item or are a large corporation wishing to relocate."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      }, "In London on moving day without a plan? You need a man with a van service. At Top London Removals, we are passionate about moving you from A to B with a minimum of fuss and are able to offer some of the most competitive prices in the industry. Our Man and Van team is here 24/7 to help you move across London or further afield, and can even come to your assistance if you\u2019re relocating overseas. Our company has a diverse client base and can assist you whether you\u2019re moving a single item or are a large corporation wishing to relocate."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 59
@@ -1091,24 +1091,29 @@ function (_React$Component) {
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8_reactstrap__["h" /* ModalBody */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 83
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 84
         }
       }, modals[this.state.activModal])))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 88
         }
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("article", {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 91
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 92
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
         className: "h2",
         __source: {
           fileName: _jsxFileName,
@@ -1366,7 +1371,7 @@ var Modal3 = function Modal3(_ref) {
       fileName: _jsxFileName,
       lineNumber: 8
     }
-  }, " Some items require extra care to protect them from getting scratched or damaged such as piano, antiques, or expensive furniture. During the moving process, they must have specialised equipment to make sure that the transportation is safe includes lifts, trolley, carrying straps or special blankets."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["m" /* Row */], {
+  }, " Some items require extra care to protect them from getting scratched or damaged such as piano, antiques, or expensive furniture. During the moving process, they must have specialised equipments to make sure that the transportation is safe includes lifts, trolley, carrying straps or special blankets."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["m" /* Row */], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -1616,7 +1621,7 @@ module.exports = __webpack_require__("./node_modules/core-js/library/fn/json/str
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1533605489252");
+            injectCss(link, link.href.split("?")[0] + "?unix=1534277376527");
           });
       }
     }
@@ -81306,7 +81311,7 @@ var Home = function Home() {
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1533605489234");
+            injectCss(link, link.href.split("?")[0] + "?unix=1534277376506");
           });
       }
     }

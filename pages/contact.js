@@ -2,7 +2,7 @@ import React from "react";
 import Form from "../components/Form.js";
 import Page from "../layouts/main";
 import Head from "next/head";
-import { Container, Row, Col } from "reactstrap";
+import {Row, Col } from "reactstrap";
 import {MdRoom, MdSchedule, MdEmail} from 'react-icons/lib/md';
 import FaPhone from "react-icons/lib/fa/phone";
 
@@ -38,7 +38,7 @@ const Contact = () => (
         <p><MdRoom /> 383 Barry Rd, East Dulwich, London SE22 0JZ</p>
       </Col>
       <Col>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19895.28946190851!2d-0.08205589451276422!3d51.441424983759774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876038ce48b3221%3A0x771bf708c99f1483!2sTop+London+Removals+(Man+and+Van)!5e0!3m2!1sen!2suk!4v1530898889049" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.4958211398985!2d-0.07611868423216415!3d51.44905247962566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876038ce48b3221%3A0x771bf708c99f1483!2sTop+London+Removals!5e0!3m2!1sen!2suk!4v1534170609744" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
       </Col>
       </Col>
       <br />
