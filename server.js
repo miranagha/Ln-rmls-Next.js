@@ -23,7 +23,7 @@ app.prepare()
       secure: true,
       auth: {
           user: 'hi@top-london-removals.com',
-          pass: '00pokpok'
+          pass: ''
       }
   });
     let mailOptions = {
