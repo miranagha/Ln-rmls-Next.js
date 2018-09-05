@@ -12,7 +12,7 @@ import { Row, Col } from "reactstrap";
 const Home = () => (
   <div>
     <Head>
-      <title>Top London Removals - FREE Quotes and Tips 24/7 Services</title>
+      <title>Top London Removals - FREE Removals Quote and Tips 24/7 Service</title>
       <meta name="description" content='Top London Removals is a specialist Man and Van service since 2001. Request free quotes 24/7 to get the most competitive prices with NO hidden fees'/>
       <meta name="msvalidate.01" content="6382720E15EBB9DC5C6D09370AE8FA44" />
       <meta name="google-site-verification" content="5afQhcER_xaFBw6dkC5QlwfYEtXQF0Qg7Cotg7JoLEE" />

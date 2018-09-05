@@ -83,8 +83,8 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reactstrap__ = __webpack_require__("reactstrap");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_reactstrap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone__ = __webpack_require__("react-icons/lib/fa/phone");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa__ = __webpack_require__("react-icons/lib/fa");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa__);
 var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/Header.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -137,43 +137,43 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "text-right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "phone",
-        href: "tel:07459896495",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa_phone___default.a, {
+        href: "tel:02036336151",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         }
-      }), "07459896495")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["Navbar"], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa__["FaPhone"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        }
+      }), "02036336151")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["Navbar"], {
         light: true,
         expand: "md",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 39
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 40
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 41
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "/static/top-london-removals.jpg",
@@ -181,185 +181,185 @@ function (_React$Component) {
         className: "logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 42
         }
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["NavbarToggler"], {
         onClick: this.toggle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 49
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["Collapse"], {
         isOpen: this.state.isOpen,
         navbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 50
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["Nav"], {
         className: "ml-auto navi",
         navbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 51
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 52
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/",
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 53
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "a-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 53
         }
       }, "HOME"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["UncontrolledDropdown"], {
         nav: true,
         inNavbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 55
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["DropdownToggle"], {
         nav: true,
         caret: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 56
         }
       }, "REMOVALS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["DropdownMenu"], {
         right: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 59
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["DropdownItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 60
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/home-removals",
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 61
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "a-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 61
         }
       }, "HOME REMOVALS"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["DropdownItem"], {
         divider: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 63
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["DropdownItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 64
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/office-removals",
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 65
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "a-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 65
         }
       }, "OFFICE REMOVALS"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["DropdownItem"], {
         divider: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 67
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["DropdownItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 68
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/international-removals",
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 69
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "a-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 69
         }
       }, "INTERNATIONAL REMOVALS"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 73
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/man-and-van",
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 74
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "a-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 74
         }
       }, "MAN AND VAN"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 76
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/prices",
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 77
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "a-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 77
         }
       }, "PRICES"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 79
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/get-a-quote",
         passHref: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 80
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "a-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 80
         }
       }, "GET A QUOTE")))))));
     }
@@ -496,10 +496,10 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-icons/lib/fa/phone":
+/***/ "react-icons/lib/fa":
 /***/ (function(module, exports) {
 
-module.exports = require("react-icons/lib/fa/phone");
+module.exports = require("react-icons/lib/fa");
 
 /***/ }),
 

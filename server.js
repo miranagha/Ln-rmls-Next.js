@@ -1,5 +1,4 @@
 const express = require("express");
-const path = require("path");
 const nodeMailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -8,7 +7,6 @@ const dev = process.env.NODE_ENV !== 'production';
 const PORT = process.env.PORT || 3000;
 const app = next({ dev });
 const handle = app.getRequestHandler();
-require('dotenv').config();
 
 app.prepare()
 .then(() => {
@@ -24,8 +22,8 @@ app.prepare()
       port: 465,
       secure: true,
       auth: {
-          user: process.env.USER_GMAIL,
-          pass: process.env.PASS
+          user: 'hi@top-london-removals.com',
+          pass: '00pokpok'
       }
   });
     let mailOptions = {

@@ -16,6 +16,7 @@ const InternationalRemovals = () => (
           <Col sm="12" md={{ size: 8, offset: 2 }}>
           <br />
             <h1 style={{ fontSize: "35px" }}>International Removals</h1>
+            <br />
             <p>
               Do you need to move overseas? are you seeking international
               removals experts? At London Removals, We have been helping our
@@ -85,7 +86,7 @@ const InternationalRemovals = () => (
             <Link href='/get-a-quote' passHref><a className='a'> request a quote </a></Link>
             for an international move – you can do so simply by filling in the
             contact form or giving us a call
-            <a className="a" href="tel:07459896495"> 07459896495</a>
+            <a className="a" href="tel:02036336151"> 02036336151</a>
             . Why wait any longer if you have been looking for the best
             international removals firm in London? Drop us a line today to find
             out more.

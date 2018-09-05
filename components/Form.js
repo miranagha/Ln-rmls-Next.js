@@ -54,7 +54,6 @@ export default class Form extends React.Component {
           <label>Name*</label>
           <br />
           <input
-          required
             name="name"
             value={this.state.name}
             onChange={e => this.change(e)}

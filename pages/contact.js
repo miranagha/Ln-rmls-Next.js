@@ -4,7 +4,9 @@ import Page from "../layouts/main";
 import Head from "next/head";
 import {Row, Col } from "reactstrap";
 import {MdRoom, MdSchedule, MdEmail} from 'react-icons/lib/md';
-import FaPhone from "react-icons/lib/fa/phone";
+import FaPhone from "react-icons/lib/fa/phone"
+import FaMobile from "react-icons/lib/fa/mobile";
+;
 
 const pColor ={
   color:'black'
@@ -34,7 +36,8 @@ const Contact = () => (
       <Col >
         <p><MdSchedule /> We are open 7 days a week, 24 hours a day</p>
         <p><a style={pColor} href="mailto:hi@top-london-removals.com"><MdEmail /> hi@top-london-removals.com</a></p>
-        <p><a style={pColor} href="tel:07459896495"><FaPhone /> 07459896495</a></p>
+        <p><a style={pColor} href="tel:02036336151"><FaPhone /> 02036336151</a></p>
+        <p><a style={pColor} href="tel:07459896495"><FaMobile /> 07459896495</a></p>
         <p><MdRoom /> 383 Barry Rd, East Dulwich, London SE22 0JZ</p>
       </Col>
       <Col>

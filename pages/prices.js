@@ -95,7 +95,7 @@ const Prices = () => (
             <br />
             To find out more about using our Everything Else service or to
             <Link href='/get-a-quote' passHref><a className='a'> get a quote </a></Link>, call us on
-            <a className="a" href="tel:07459896495"> 07459896495</a> </p>
+            <a className="a" href="tel:02036336151"> 02036336151</a> </p>
         </Col>
       </article>
     </Page>

@@ -7,17 +7,18 @@ import { Container, Row, Col } from "reactstrap";
 const HomeRemovals = () => (
   <section>
     <Head>
-      <title>Home Removals - Flat removals</title>
-      <meta name="description" content="Do you need a hand for your house relocation? Top London removals is ready to assit you and take your stress out"/>
+      <title>House Removals London - Flat removals</title>
+      <meta name="description" content="Do you need a hand for your house relocation? Top London removals is ready to assit you and take your stress out" />
     </Head>
     <Page>
       <article>
-      <Col className="main-container">
-        <Col sm="12" md={{ size: 8, offset: 2 }}>
-        <br />
-            <h1>London Home Removals</h1>
+        <Col className="main-container">
+          <Col sm="12" md={{ size: 8, offset: 2 }}>
+            <br />
+            <h1>Home removals London</h1>
+            <br />
             <p>
-              move home in comfort and style. We can come to your assistance,
+              <strong>Move home in comfort and style.</strong> We can come to your assistance,
               whether you need to move locally, nationally or internationally.
               Do everything in our power to take as much stress out of
               the experience as we can by offering to carry out a range of tasks
@@ -35,8 +36,8 @@ const HomeRemovals = () => (
             <br />
           </Col>
         </Col>
-      <Col sm="12" md={{ size: 8, offset: 2 }}>
-      <br />
+        <Col sm="12" md={{ size: 8, offset: 2 }}>
+          <br />
           <h2 className="h2">A highly-recommended house mover</h2>
           <p>
             We have been in the business for well over 15 years, and more and
@@ -81,8 +82,9 @@ const HomeRemovals = () => (
             on our clients'' unique needs and circumstances, so why not talk to
             us today and get a competitive quote for your house move? We are fully
             insured and always treat our clients' items with the utmost respect.
+            <br />
             <br />Get the wheels in motion and talk to our friendly,
-            professional team today <a className="a" href="tel:07459896495">07459896495</a>
+            professional team today <a className="a" href="tel:02036336151">02036336151</a>
           </p>
         </Col>
       </article>

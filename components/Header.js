@@ -7,13 +7,14 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  Row,
+  Col,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
-import FaPhone from "react-icons/lib/fa/phone";
+import { FaPhone, FaMobile } from "react-icons/lib/fa";
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -33,20 +34,18 @@ export default class Example extends React.Component {
     return (
       <div>
         <div className="text-right">
-          <a className='phone' href="tel:07459896495">
-            <FaPhone />07459896495
-          </a>
+          <a className='phone' href="tel:02036336151"><FaPhone />02036336151</a>
         </div>
         <Navbar light expand="md">
-            <Link href='/'>
+          <Link href='/'>
             <a>
-            <img
-              src="/static/top-london-removals.jpg"
-              alt="Top london removals"
-              className='logo'
-            />
+              <img
+                src="/static/top-london-removals.jpg"
+                alt="Top london removals"
+                className='logo'
+              />
             </a>
-            </Link>
+          </Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto navi" navbar>
@@ -59,15 +58,15 @@ export default class Example extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                <Link href='/home-removals' passHref><a className='a-nav'>HOME REMOVALS</a></Link>
+                    <Link href='/home-removals' passHref><a className='a-nav'>HOME REMOVALS</a></Link>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                <Link href='/office-removals' passHref><a className='a-nav'>OFFICE REMOVALS</a></Link>
+                    <Link href='/office-removals' passHref><a className='a-nav'>OFFICE REMOVALS</a></Link>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                <Link href='/international-removals' passHref><a className='a-nav'>INTERNATIONAL REMOVALS</a></Link>
+                    <Link href='/international-removals' passHref><a className='a-nav'>INTERNATIONAL REMOVALS</a></Link>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

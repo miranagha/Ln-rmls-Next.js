@@ -7,7 +7,7 @@ import { Row, Col } from "reactstrap";
 const OfficeRemovals = () => (
   <section>
     <Head>
-      <title>Office Removals London - </title>
+      <title>Office Removals London - Top London Removals </title>
       <meta name="description" content="No matter how large your business is. Our office removals staff has a huge experience and capacity to carry out the job smoother than you expect. Call today to receive a free quote."/>
     </Head>
     <Page>
@@ -15,10 +15,11 @@ const OfficeRemovals = () => (
         <Col className="main-container">
           <Col sm="12" md={{ size: 8, offset: 2 }}>
           <br />
-            <h1 style={{ fontSize: "36px" }}>London Office Removals</h1>
+            <h1 style={{ fontSize: "36px" }}>Office removals London</h1>
+            <br />
             <p>
               There’s no doubt that a great deal of planning and time goes into
-              moving offices, but at London Removals we have the experience,
+              moving offices, but at Top London Removals we have the experience,
               expertise and resources needed to ensure your office move goes
               smoothly. We have been helping business offices relocate since
               2001 and are passionate about helping businesses move premises
