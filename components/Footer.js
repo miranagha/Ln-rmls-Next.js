@@ -12,7 +12,7 @@ const Footer = () => (
         <br />
         <Link href='/contact' passHref><a className='copyRight' >CONTACT US</a></Link>
         <br />
-        <p className='text-center copyRight'>Copyright @ 2018 Top London Removal | all rights reserved | 383 Barry Rd, East Dulwich, London SE22 0JZ</p>
+        <p className='text-center copyRight'>Copyright @ 2020 Top London Removals | all rights reserved | 383 Barry Rd, East Dulwich, London SE22 0JZ</p>
     </footer>
 );
 

@@ -41,6 +41,7 @@ const Contact = () => (
         <p><MdRoom /> 383 Barry Rd, East Dulwich, London SE22 0JZ</p>
       </Col>
       <Col>
+      <p>Find <a className="a" title="Top London Removals" href="https://goo.gl/maps/T7Ne8uVaNoASjaDX7"> Top London Removals </a> on Google map</p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.4958211398985!2d-0.07611868423216415!3d51.44905247962566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876038ce48b3221%3A0x771bf708c99f1483!2sTop+London+Removals!5e0!3m2!1sen!2suk!4v1534170609744" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
       </Col>
       </Col>

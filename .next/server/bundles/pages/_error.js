@@ -85,7 +85,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reactstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_reactstrap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa__ = __webpack_require__("react-icons/lib/fa");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa__);
-var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/Header.js";
+var _jsxFileName = "/Users/user/Documents/Ln-rmls-Next.js/components/Header.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -383,7 +383,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header__ = __webpack_require__("./components/Header.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
-var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/pages/_error.js";
+var _jsxFileName = "/Users/user/Documents/Ln-rmls-Next.js/pages/_error.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 

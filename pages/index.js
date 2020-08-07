@@ -4,7 +4,7 @@ import Form from "../components/Form.js";
 import AsideText from "../components/AsideText.js";
 import Section from "../components/Section.js";
 import Page from "../layouts/main";
-import "../static/style.css";
+import "../css/style.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Row, Col } from "reactstrap";
 
@@ -12,10 +12,9 @@ import { Row, Col } from "reactstrap";
 const Home = () => (
   <div>
     <Head>
-      <title>Top London Removals - FREE Removals Quote and Tips 24/7 Service</title>
-      <meta name="description" content='Top London Removals is a specialist Man and Van service since 2001. Request free quotes 24/7 to get the most competitive prices with NO hidden fees'/>
-      <meta name="msvalidate.01" content="6382720E15EBB9DC5C6D09370AE8FA44" />
-      <meta name="google-site-verification" content="5afQhcER_xaFBw6dkC5QlwfYEtXQF0Qg7Cotg7JoLEE" />
+      <title>London removals company cheap house move van |Top London removals</title>
+      <meta name="description" content='Top London Removals is a specialist Man and Van service since 2001. Based in London we cover the UK and the rest of Europe.'/>
+      <meta name="google-site-verification" content="VsHncoHhcXRVYyv61NQAx_3Kz8YVDSY5jB20QTMZ6LE" />
       <link rel="canonical" href="https://top-london-removals.com/" />
     </Head>
     <Page>

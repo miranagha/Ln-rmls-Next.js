@@ -1,6 +1,6 @@
 {
   "name": "london-removals",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,8 +17,9 @@
     "bootstrap": "^4.1.0",
     "cors": "^2.8.4",
     "dotenv": "^6.0.0",
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "nodemailer": "^4.6.4",
+    "now": "^15.5.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-ga": "^2.5.3",

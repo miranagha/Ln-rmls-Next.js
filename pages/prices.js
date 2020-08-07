@@ -45,7 +45,7 @@ const Prices = () => (
             hidden costs and the price you see is the price you pay.
             <br />
             <br />
-            <li>1 Man and Van = £35 per hour</li>
+            <li>1 Man and Van = from £35 per hour</li>
             <br />
             <li>2 Men and Van = £50 per hour</li>
             <br />

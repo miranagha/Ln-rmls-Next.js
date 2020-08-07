@@ -80,7 +80,7 @@ const ManAndVan = () => (
           <br />
           <br />
           <br />
-          Getting a quote from man and van is easy – just
+          Getting a quote from <a className="a" title="man and van London" href="https://www.google.co.uk/search?safe=strict&rlz=1C5CHFA_enGB851GB851&q=man%20and%20van%20london&npsic=0&rflfq=1&rlha=0&rllag=51493237%2C-104428%2C436&tbm=lcl&ved=2ahUKEwiQzOvy_93jAhWlsKQKHfZCDToQtgN6BAgLEAQ&tbs=lrf%3A!2m1!1e3!3sIAE%2Clf%3A1%2Clf_ui%3A3&rldoc=1&fbclid=IwAR2qCGIZtC7CCK3ZSUKMd_hniM8AMLKDSuVd9QKGGsYOEleNfmUfOJPPR-o#rlfi=hd:;si:8582725131999057027;mv:!1m2!1d51.45764983124475!2d-0.041589478990886164!2m2!1d51.44203085487853!2d-0.08536313011393305!3m12!1m3!1d7562.960727244291!2d-0.0634763045524096!3d51.44984034306164!2m3!1f0!2f0!3f0!3m2!1i1019!2i584!4f13.1"> man and van London</a> is easy – just
           <Link href='/get-a-quote' passHref><a className='a'> complete the form </a></Link>
           or call the number above and we will be happy to give you a price
           based on your specific needs.

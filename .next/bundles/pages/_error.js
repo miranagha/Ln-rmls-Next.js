@@ -15,7 +15,7 @@ __NEXT_REGISTER_PAGE('/_error', function() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reactstrap__ = __webpack_require__("./node_modules/reactstrap/dist/reactstrap.es.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa__ = __webpack_require__("./node_modules/react-icons/lib/fa/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_icons_lib_fa__);
-var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/components/Header.js";
+var _jsxFileName = "/Users/user/Documents/Ln-rmls-Next.js/components/Header.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -87,7 +87,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 37
         }
-      }), "02036336151")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["g" /* Navbar */], {
+      }), "02036336151")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["k" /* Navbar */], {
         light: true,
         expand: "md",
         __source: {
@@ -113,27 +113,27 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 42
         }
-      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["h" /* NavbarToggler */], {
+      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["l" /* NavbarToggler */], {
         onClick: this.toggle,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 49
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["a" /* Collapse */], {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["b" /* Collapse */], {
         isOpen: this.state.isOpen,
         navbar: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 50
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["e" /* Nav */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["i" /* Nav */], {
         className: "ml-auto navi",
         navbar: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["f" /* NavItem */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 52
@@ -151,27 +151,27 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 53
         }
-      }, "HOME"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["i" /* UncontrolledDropdown */], {
+      }, "HOME"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["n" /* UncontrolledDropdown */], {
         nav: true,
         inNavbar: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 55
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["d" /* DropdownToggle */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["f" /* DropdownToggle */], {
         nav: true,
         caret: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 56
         }
-      }, "REMOVALS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["c" /* DropdownMenu */], {
+      }, "REMOVALS"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["e" /* DropdownMenu */], {
         right: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 59
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["b" /* DropdownItem */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["d" /* DropdownItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 60
@@ -189,13 +189,13 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 61
         }
-      }, "HOME REMOVALS"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["b" /* DropdownItem */], {
+      }, "HOME REMOVALS"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["d" /* DropdownItem */], {
         divider: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 63
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["b" /* DropdownItem */], {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["d" /* DropdownItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
@@ -213,13 +213,13 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 65
         }
-      }, "OFFICE REMOVALS"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["b" /* DropdownItem */], {
+      }, "OFFICE REMOVALS"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["d" /* DropdownItem */], {
         divider: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["b" /* DropdownItem */], {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["d" /* DropdownItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 68
@@ -237,7 +237,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 69
         }
-      }, "INTERNATIONAL REMOVALS"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["f" /* NavItem */], {
+      }, "INTERNATIONAL REMOVALS"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 73
@@ -255,7 +255,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 74
         }
-      }, "MAN AND VAN"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["f" /* NavItem */], {
+      }, "MAN AND VAN"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 76
@@ -273,7 +273,7 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 77
         }
-      }, "PRICES"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["f" /* NavItem */], {
+      }, "PRICES"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_reactstrap__["j" /* NavItem */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79
@@ -32410,14 +32410,14 @@ exports.Arrow = _Arrow3.default;
 
 "use strict";
 /* unused harmony export Alert */
-/* unused harmony export Container */
-/* unused harmony export Row */
-/* unused harmony export Col */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return Navbar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return Container; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return Row; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Col; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return Navbar; });
 /* unused harmony export NavbarBrand */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return NavbarToggler; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return Nav; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return NavItem; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return NavbarToggler; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return Nav; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return NavItem; });
 /* unused harmony export NavDropdown */
 /* unused harmony export NavLink */
 /* unused harmony export Breadcrumb */
@@ -32427,9 +32427,9 @@ exports.Arrow = _Arrow3.default;
 /* unused harmony export ButtonGroup */
 /* unused harmony export ButtonToolbar */
 /* unused harmony export Dropdown */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return DropdownItem; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return DropdownMenu; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return DropdownToggle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return DropdownItem; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return DropdownMenu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return DropdownToggle; });
 /* unused harmony export Fade */
 /* unused harmony export Badge */
 /* unused harmony export Card */
@@ -32458,9 +32458,9 @@ exports.Arrow = _Arrow3.default;
 /* unused harmony export PopoverTitle */
 /* unused harmony export PopoverHeader */
 /* unused harmony export Progress */
-/* unused harmony export Modal */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return Modal; });
 /* unused harmony export ModalHeader */
-/* unused harmony export ModalBody */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return ModalBody; });
 /* unused harmony export ModalFooter */
 /* unused harmony export PopperContent */
 /* unused harmony export PopperTargetHelper */
@@ -32485,13 +32485,13 @@ exports.Arrow = _Arrow3.default;
 /* unused harmony export TabContent */
 /* unused harmony export TabPane */
 /* unused harmony export Jumbotron */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Collapse; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Collapse; });
 /* unused harmony export ListGroupItem */
 /* unused harmony export ListGroupItemText */
 /* unused harmony export ListGroupItemHeading */
 /* unused harmony export UncontrolledAlert */
 /* unused harmony export UncontrolledButtonDropdown */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return UncontrolledDropdown; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return UncontrolledDropdown; });
 /* unused harmony export UncontrolledNavDropdown */
 /* unused harmony export UncontrolledTooltip */
 /* unused harmony export Util */
@@ -38184,7 +38184,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header__ = __webpack_require__("./components/Header.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
-var _jsxFileName = "/Users/mac/Documents/Ln-rmls-Next.js/pages/_error.js";
+var _jsxFileName = "/Users/user/Documents/Ln-rmls-Next.js/pages/_error.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
